@@ -708,24 +708,21 @@
       "abilicon": "https://rerollcdn.com/abilities/7/nami-ebb-and-flow.png",
       "variables": [
         {
-          "name": "MagicDamage",
+          "name": "Magic Damage",
           "value": [150.0, 180.0, 210.0]
         },
         {
           "name": "Healing",
           "value": [170.0, 190.0, 210.0]
-        },
-        { "name": "BounceCount", "value": [2.0, 2.0, 2.0] }
+        }
       ]
     },
     "cost": 2,
     "name": "Nami",
-    "icon": "https://cdn1.dotesports.com/wp-content/uploads/2022/06/10083623/TFT-Nami.jpg",
+    "icon": "https://cdn.mobalytics.gg/assets/tft/images/champions/page-background/set7/nami.jpg",
     "stats": {
       "armor": 20.0,
       "attackSpeed": 0.65,
-      "critChance": 0.25,
-      "critMultiplier": 1.3,
       "damage": 40.0,
       "hp": 600.0,
       "initialMana": 50.0,

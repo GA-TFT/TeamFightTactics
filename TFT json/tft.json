@@ -429,34 +429,6 @@
   },
   {
     "ability": {
-      "desc": "Taric grants himself and his closest ally a protective rune that increases Armor by @ModifiedArmor@ for @Duration@ seconds.",
-      "icon": "ASSETS/Characters/Taric/HUD/Icons2D/Taric_W2.dds",
-      "name": "Bastion",
-      "variables": [
-        { "name": "Armor", "value": [0.0, 30.0, 60.0, 120.0, 0.0, 0.0, 0.0] },
-        { "name": "Duration", "value": [6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0] }
-      ]
-    },
-    "apiName": "TFT7_Taric",
-    "cost": 1,
-    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT7_Taric.TFT_Set7.dds",
-    "name": "Taric",
-    "stats": {
-      "armor": 45.0,
-      "attackSpeed": 0.60,
-      "critChance": 0.25,
-      "critMultiplier": 1.30,
-      "damage": 70.0,
-      "hp": 700.0,
-      "initialMana": 0,
-      "magicResist": 45.0,
-      "mana": 50.0,
-      "range": 1.0
-    },
-    "traits": ["Jade", "Guardian"]
-  },
-  {
-    "ability": {
       "desc": "Twitch hurls an exploding flask at his target, dealing <scaleAD>@TotalDamage@</scaleAD> physical damage (@ADRatio*100@% Attack Damage %i:scaleAD% + @ModifiedBaseDamage@) in an area and reducing the Armor of enemies hit by @TooltipShredMult*100@% for @ShredDuration@ seconds.",
       "icon": "ASSETS/Characters/Twitch/HUD/Icons2D/Twitch_W.dds",
       "name": "Blast Potion",

@@ -1730,4 +1730,31 @@
     },
     "traits": ["Guild", "Assassin"]
   },
+  {
+    "ability": {
+      "desc": "Taric grants himself and his closest ally a protective rune that increases Armor for 6 seconds.",
+      "name": "Bastion",
+      "abilicon":"https://rerollcdn.com/abilities/7/taric-bastion.png",
+      "variables": [
+        { "name": "Armor", "value": [0.0, 60.0, 120.0] },
+        { "name": "Duration", "value": [6.0, 6.0, 6.0] }
+      ]
+    },
+    "cost": 1,
+    "name": "Taric",
+    "icon":"https://cdn.mobalytics.gg/assets/tft/images/champions/page-background/set7/taric.jpg",
+    "stats": {
+      "armor": 45.0,
+      "attackSpeed": 0.60,
+      "critChance": 0.25,
+      "critMultiplier": 1.30,
+      "damage": 70.0,
+      "hp": 700.0,
+      "initialMana": 0,
+      "magicResist": 45.0,
+      "mana": 50.0,
+      "range": 1.0
+    },
+    "traits": ["Jade", "Guardian"]
+  },
 ]

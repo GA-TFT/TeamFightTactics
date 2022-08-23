@@ -1,32 +1,5 @@
 [
-  {
-    "ability": {
-      "desc": "Vladimir deals magic damage to the target and heals for Health.",
-      "name": "Transfusion",
-      "variables": [
-        {
-          "name": "Damage",
-          "value": [275.0, 325.0, 375.0]
-        },
-        { "name": "Heal", "value": [270.0, 300.0, 330.0] }
-      ]
-    },
-    "cost": 1,
-    "name": "Vladimir",
-    "stats": {
-      "armor": 45.0,
-      "attackSpeed": 0.6,
-      "critChance": 0.25,
-      "critMultiplier": 1.3,
-      "damage": 40.0,
-      "hp": 700.0,
-      "initialMana": 0,
-      "magicResist": 45.0,
-      "mana": 70.0,
-      "range": 2.0
-    },
-    "traits": ["Astral", "Mage"]
-  },
+
   {
     "ability": {
       "desc": "Passive: Yone's basic attacks alternate between dealing bonus magic damage and dealing 33% of his Attack Damage.",

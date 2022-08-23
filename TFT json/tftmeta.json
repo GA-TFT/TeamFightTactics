@@ -2057,4 +2057,39 @@
     },
     "traits": ["Mirage", "Dragonmancer", "Warrior"]
   },
+  {
+    "ability": {
+      "desc": "Passive: Yone's basic attacks alternate between dealing bonus magic damage and dealing 33% of his Attack Damage.",
+      "name": "Way of the Hunter",
+      "abilicon":"https://rerollcdn.com/abilities/7/yone-way-of-the-hunter.png",
+      "variables": [
+        {
+          "name": "BonusDamage",
+          "value": [90.0, 150.0, 225.0]
+        },
+        {
+          "name": "PercentAD",
+          "value": [
+            0.33, 0.33, 0.33
+          ]
+        }
+      ]
+    },
+    "cost": 2,
+    "name": "Yone",
+    "icon":"https://cdn.mobalytics.gg/assets/tft/images/champions/page-background/set7/yone.jpg",
+    "stats": {
+      "armor": 40.0,
+      "attackSpeed": 0.85,
+      "critChance": 0.25,
+      "critMultiplier": 1.23,
+      "damage": 55.0,
+      "hp": 800.0,
+      "initialMana": 0,
+      "magicResist": 40.0,
+      "mana": 0.0,
+      "range": 1.0
+    },
+    "traits": ["Mirage", "Warrior"]
+  },
 ]

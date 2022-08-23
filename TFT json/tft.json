@@ -4,6 +4,7 @@
     "ability": {
       "desc": "Passive: Yone's basic attacks alternate between dealing bonus magic damage and dealing 33% of his Attack Damage.",
       "name": "Way of the Hunter",
+      "abilicon":"https://rerollcdn.com/abilities/7/yone-way-of-the-hunter.png",
       "variables": [
         {
           "name": "BonusDamage",
@@ -12,13 +13,14 @@
         {
           "name": "PercentAD",
           "value": [
-            0.33000001311302185, 0.33000001311302185, 0.33000001311302185
+            0.33, 0.33, 0.33
           ]
         }
       ]
     },
     "cost": 2,
     "name": "Yone",
+    "icon":"https://cdn.mobalytics.gg/assets/tft/images/champions/page-background/set7/yone.jpg",
     "stats": {
       "armor": 40.0,
       "attackSpeed": 0.85,
@@ -33,68 +35,7 @@
     },
     "traits": ["Mirage", "Warrior"]
   },
-  {
-    "ability": {
-      "desc": "Lillia strikes a small area around her target's current location, dealing magic damage spread amongst all enemies hit and bonus magic damage to the enemy at the center of the blast.",
-      "name": "Watch Out!",
-      "abilicon": "https://rerollcdn.com/abilities/7/lillia-watch-out.png",
-      "variables": [
-        {
-          "name": "MagicDamage",
-          "value": [215.0, 275.0, 350.0]
-        },
-        {
-          "name": "CenterBonusMagicDamage",
-          "value": [190.0, 240.0, 320.0]
-        },
-        { "name": "StunDuration", "value": [1.0, 1.0, 1.0] }
-      ]
-    },
-    "cost": 2,
-    "name": "Lillia",
-    "icon": "https://cdn.mobalytics.gg/assets/tft/images/champions/thumbnail/set7/lillia.jpg",
-    "stats": {
-      "armor": 40.0,
-      "attackSpeed": 0.7,
-      "critChance": 0.25,
-      "critMultiplier": 1.3,
-      "damage": 40.0,
-      "hp": 750.0,
-      "initialMana": 0,
-      "magicResist": 40.0,
-      "mana": 50.0,
-      "range": 1.0
-    },
-    "traits": ["Scalescorn", "Cavalier", "Mage"]
-  },
-  {
-    "ability": {
-      "desc": "Anivia summons a prismatic storm around her target, dealing magic damage over 3 seconds. Enemies in the storm have their Magic Reisist reduced by 40%.",
-      "name": "Prismatic Storm",
-      "variables": [
-        {
-          "name": "Damage",
-          "value": [325.0, 475.0, 750.0]
-        },
-        { "name": "Duration", "value": [3.0, 3.0, 3.0] }
-      ]
-    },
-    "cost": 3,
-    "name": "Anivia",
-    "stats": {
-      "armor": 25.0,
-      "attackSpeed": 0.7,
-      "critChance": 0.25,
-      "critMultiplier": 1.3,
-      "damage": 40.0,
-      "hp": 650.0,
-      "initialMana": 40.0,
-      "magicResist": 25.0,
-      "mana": 80.0,
-      "range": 4.0
-    },
-    "traits": ["Jade", "Evoker", "Legend"]
-  },
+  
   {
     "ability": {
       "desc": "Zoe nabs a spell from another dimension and casts it as if it were her own.",
@@ -117,125 +58,5 @@
       "range": 4.0
     },
     "traits": ["Shimmerscale", "Spell Thief", "Mage"]
-  },
-  {
-    "ability": {
-      "desc": "For 4 seconds, Xayah's attacks she fires a feather behind her target and nearby enemies.t the end of this duration, Xayah recalls her feathers, dealing a % of her Attack Damage plus bonus physical damage per feather to enemies struck..",
-      "name": "Feathers FLY!",
-      "abilicon":"https://rerollcdn.com/abilities/7/xayah-feathers-fly.png",
-      "variables": [
-        {
-          "name": "NumBonusAttacks",
-          "value": [2.0, 2.0, 4.0]
-        },
-        {
-          "name": "PullbackDamagePerFeather",
-          "value": [12.0, 20.0, 60.0]
-        },
-        {
-          "name": "RecallAD",
-          "value": [0.18, 0.18, 0.18,]
-        },
-        { "name": "Duration", "value": [4.0, 4.0, 4.0] }
-      ]
-    },
-    "cost": 4,
-    "name": "Xayah",
-    "stats": {
-      "armor": 25.0,
-      "attackSpeed": 0.75,
-      "critChance": 0.25,
-      "critMultiplier": 1.30,
-      "damage": 70.0,
-      "hp": 750.0,
-      "initialMana": 0,
-      "magicResist": 25.0,
-      "mana": 60.0,
-      "range": 3.0
-    },
-    "traits": ["Ragewing", "Swiftshot"]
-  },
-  {
-    "ability": {
-      "desc": "Nomsy breathes fire towards its target, dealing @ModifiedDamage@ magic damage to enemies hit and burning them for @TooltipBurnPercent*100@% of their maximum Health true damage per second over @BurnDuration@ seconds. Burned enemies suffer @GrievousWoundsPercent@% reduced healing.",
-      "icon": "ASSETS/Characters/Brand/HUD/Icons2D/BrandQ.dds",
-      "name": "Fireball!",
-      "variables": [
-        {
-          "name": "Damage",
-          "value": [50.0, 85.0, 110.0, 140.0, 175.0, 175.0, 200.0]
-        },
-        {
-          "name": "BurnDuration",
-          "value": [8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0]
-        },
-        {
-          "name": "TooltipBurnPercent",
-          "value": [
-            0.009999999776482582, 0.009999999776482582, 0.009999999776482582,
-            0.009999999776482582, 0.009999999776482582, 0.009999999776482582,
-            0.009999999776482582
-          ]
-        },
-        { "name": "StunDuration", "value": null },
-        {
-          "name": "ShieldAmount",
-          "value": [50.0, 150.0, 250.0, 350.0, 450.0, 350.0, 350.0]
-        },
-        { "name": "ShieldDuration", "value": null },
-        {
-          "name": "FireballSize",
-          "value": [1.0, 1.0, 1.0, 2.0, 2.0, 2.0, 2.0]
-        },
-        { "name": "ShouldBurn", "value": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0] },
-        { "name": "ShouldStun", "value": null },
-        {
-          "name": "GrievousWoundsPercent",
-          "value": [0.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0]
-        }
-      ]
-    },
-    "apiName": "TFT7_TrainerDragon",
-    "cost": 11,
-    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT7_Nomsy.TFT_Set7.dds",
-    "name": "Nomsy",
-    "stats": {
-      "armor": 0.0,
-      "attackSpeed": 0.60,
-      "critChance": 0.25,
-      "critMultiplier": 1.5,
-      "damage": 0.0,
-      "hp": 225.0,
-      "initialMana": 90.0,
-      "magicResist": null,
-      "mana": 140.0,
-      "range": 2.0
-    },
-    "traits": []
-  },
-  {
-    "ability": {
-      "desc": "When its Health is depleted, the Jade Statue will explode.",
-      "icon": "ASSETS/Characters/TFT7_JadeStatue/HUD/Icons2D/TFT7_JadeStatue_EyeOfTheStorm.TFT_Set7.dds",
-      "name": "Shatter",
-      "variables": []
-    },
-    "apiName": "TFT7_JadeStatue",
-    "cost": 11,
-    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT7_JadeStatue.TFT_Set7.dds",
-    "name": "Jade Statue",
-    "stats": {
-      "armor": 15.0,
-      "attackSpeed": 0.6499999761581421,
-      "critChance": 0.25,
-      "critMultiplier": 1.30,
-      "damage": null,
-      "hp": 1.0,
-      "initialMana": 0,
-      "magicResist": 15.0,
-      "mana": 0.0,
-      "range": 1.0
-    },
-    "traits": []
   },
 ]

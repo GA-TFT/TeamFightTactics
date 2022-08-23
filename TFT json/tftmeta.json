@@ -1632,15 +1632,15 @@
       "abilicon": "https://rerollcdn.com/abilities/7/yasuo-sweeping-blade.png",
       "variables": [
         {
-          "name": "ShieldAmount",
+          "name": "Shield Amount",
           "value": [180.0, 240.0, 2500.0]
         },
         {
-          "name": "ShieldDuration",
+          "name": "Shield Duration",
           "value": [2.0, 2.0, 20.0]
         },
         {
-          "name": "PercentAttackDamage",
+          "name": "Percent Attack  Damage",
           "value": [160.0, 200.0, 3000.0]
         }
       ]
@@ -1667,12 +1667,8 @@
       "abilicon": "https://rerollcdn.com/abilities/7/yone-way-of-the-hunter.png",
       "variables": [
         {
-          "name": "BonusDamage",
+          "name": "Bonus Damage",
           "value": [90.0, 150.0, 225.0]
-        },
-        {
-          "name": "PercentAD",
-          "value": [0.33, 0.33, 0.33]
         }
       ]
     },
@@ -1682,8 +1678,6 @@
     "stats": {
       "armor": 40.0,
       "attackSpeed": 0.85,
-      "critChance": 0.25,
-      "critMultiplier": 1.23,
       "damage": 55.0,
       "hp": 800.0,
       "initialMana": 0,

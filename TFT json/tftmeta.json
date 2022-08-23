@@ -1642,14 +1642,6 @@
         {
           "name": "PercentAttackDamage",
           "value": [160.0, 200.0, 3000.0]
-        },
-        {
-          "name": "StunDuration",
-          "value": [1.5, 1.5, 1.5]
-        },
-        {
-          "name": "EmpoweredDamagePct",
-          "value": [250.0, 250.0, 250.0]
         }
       ]
     },
@@ -1659,8 +1651,6 @@
     "stats": {
       "armor": 50.0,
       "attackSpeed": 1.0,
-      "critChance": 0.25,
-      "critMultiplier": 1.3,
       "damage": 90.0,
       "hp": 1100.0,
       "initialMana": 0,

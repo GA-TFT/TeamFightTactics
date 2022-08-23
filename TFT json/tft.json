@@ -156,34 +156,6 @@
   },
   {
     "ability": {
-      "desc": "Aatrox strikes his target for a % of his Attack Damage  and heals himself.",
-      "name": "Deathbringer Strike",
-      "variables": [
-        {
-          "name": "PercentAttackDamage",
-          "value": [275.0, 305.0, 385.0]
-        },
-        { "name": "Heal", "value": [300.0, 350.0, 400.0] }
-      ]
-    },
-    "cost": 1,
-    "name": "Aatrox",
-    "stats": {
-      "armor": 45.0,
-      "attackSpeed": 0.65,
-      "critChance": 0.25,
-      "critMultiplier": 1.3,
-      "damage": 65.0,
-      "hp": 650.0,
-      "initialMana": 50.0,
-      "magicResist": 45.0,
-      "mana": 100,
-      "range": 1.0
-    },
-    "traits": ["Shimmerscale", "Warrior"]
-  },
-  {
-    "ability": {
       "desc": "Diana shields herself against damage over 6 seconds and summons  orbs to orbit around her. These orbs explode for magic damage when they hit an enemy, refreshing her Shield when the final one explodes.",
       "icon": "ASSETS/Characters/Diana/HUD/Icons2D/Diana_W_LunarShower.dds",
       "name": "Pale Cascade",

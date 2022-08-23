@@ -364,65 +364,6 @@
   },
   {
     "ability": {
-      "desc": "Twitch hurls an exploding flask at his target, dealing <scaleAD>@TotalDamage@</scaleAD> physical damage (@ADRatio*100@% Attack Damage %i:scaleAD% + @ModifiedBaseDamage@) in an area and reducing the Armor of enemies hit by @TooltipShredMult*100@% for @ShredDuration@ seconds.",
-      "icon": "ASSETS/Characters/Twitch/HUD/Icons2D/Twitch_W.dds",
-      "name": "Blast Potion",
-      "variables": [
-        {
-          "name": "BaseDamage",
-          "value": [0.0, 40.0, 80.0, 150.0, 0.0, 0.0, 0.0]
-        },
-        {
-          "name": "ADRatio",
-          "value": [
-            1.2000000476837158, 1.2000000476837158, 1.2000000476837158,
-            1.2000000476837158, 1.2000000476837158, 1.2000000476837158,
-            1.2000000476837158
-          ]
-        },
-        {
-          "name": "TooltipShredMult",
-          "value": [
-            0.4000000059604645, 0.4000000059604645, 0.4000000059604645,
-            0.4000000059604645, 0.4000000059604645, 0.4000000059604645,
-            0.4000000059604645
-          ]
-        },
-        {
-          "name": "ShredDuration",
-          "value": [5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0]
-        },
-        {
-          "name": "GuildBonus",
-          "value": [
-            0.10000000149011612, 0.10000000149011612, 0.10000000149011612,
-            0.10000000149011612, 0.10000000149011612, 0.10000000149011612,
-            0.10000000149011612
-          ]
-        }
-      ]
-    },
-    "apiName": "TFT7_Twitch",
-    "cost": 2,
-    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT7_Twitch.TFT_Set7.dds",
-    "name": "Twitch",
-    "stats": {
-      "armor": 20.0,
-      "attackSpeed": 0.699999988079071,
-      "critChance": 0.25,
-      "critMultiplier": 1.30,
-      "damage": 55.0,
-      "hp": 550.0,
-      "initialMana": 40.0,
-      "magicResist": 20.0,
-      "mana": 80.0,
-      "range": 3.0
-    },
-    "traits": ["Guild", "Swiftshot"]
-  },
-  
-  {
-    "ability": {
       "desc": "Nomsy breathes fire towards its target, dealing @ModifiedDamage@ magic damage to enemies hit and burning them for @TooltipBurnPercent*100@% of their maximum Health true damage per second over @BurnDuration@ seconds. Burned enemies suffer @GrievousWoundsPercent@% reduced healing.",
       "icon": "ASSETS/Characters/Brand/HUD/Icons2D/BrandQ.dds",
       "name": "Fireball!",

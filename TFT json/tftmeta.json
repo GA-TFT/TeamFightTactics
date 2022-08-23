@@ -1826,4 +1826,50 @@
     },
     "traits": ["Trainer", "Cannoneer"]
   },
+  {
+    "ability": {
+      "desc": "Twitch hurls an exploding flask at his target, dealing a % of his Attack Damage plus bonus magic damage and reducing the Armor of enemies hit by 40% for 5 seconds.",
+      "name": "Blast Potion",
+      "abilicon":"https://rerollcdn.com/abilities/7/twitch-blast-potion.png",
+      "variables": [
+        {
+          "name": "BaseDamage",
+          "value": [40.0, 80.0, 150.0]
+        },
+        {
+          "name": "ADRatio",
+          "value": [1.20, 1.20, 1.20,]
+        },
+        {
+          "name": "TooltipShredMult",
+          "value": [0.40, 0.40, 0.40]
+        },
+        {
+          "name": "ShredDuration",
+          "value": [5.0, 5.0, 5.0]
+        },
+        {
+          "name": "GuildBonus",
+          "value": [0.10, 0.10, 0.10,]
+        }
+      ]
+    },
+    "cost": 2,
+    "name": "Twitch",
+    "icon":"https://cdn.mobalytics.gg/assets/tft/images/champions/page-background/set7/twitch.jpg",
+    "stats": {
+      "armor": 20.0,
+      "attackSpeed": 0.70,
+      "critChance": 0.25,
+      "critMultiplier": 1.30,
+      "damage": 55.0,
+      "hp": 550.0,
+      "initialMana": 40.0,
+      "magicResist": 20.0,
+      "mana": 80.0,
+      "range": 3.0
+    },
+    "traits": ["Guild", "Swiftshot"]
+  },
+  
 ]

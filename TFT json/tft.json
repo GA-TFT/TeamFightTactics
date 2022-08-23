@@ -652,44 +652,4 @@
     },
     "traits": []
   },
-  {
-    "ability": {
-      "desc": "Tahm Kench shields himself base shield amount plus 10% maximum Health for 6 seconds. The next 3 enemy attacks he receives during this duration deal magic damage to the attacker.",
-      "name": "Thicker Skin",
-      "variables": [
-        {
-          "name": "BaseShield",
-          "value": [240.0, 250.0, 275.0]
-        },
-        {
-          "name": "MagicDamage",
-          "value": [75.0, 100.0, 125.0]
-        },
-        {
-          "name": "ShieldDuration",
-          "value": [6.0, 6.0, 6.0]
-        },
-        {
-          "name": "ShieldHealthRatio",
-          "value": [0.1, 0.1, 0.1]
-        },
-        { "name": "NumAttacks", "value": [3.0, 3.0, 3.0] }
-      ]
-    },
-    "cost": 1,
-    "name": "Tahm Kench",
-    "stats": {
-      "armor": 40.0,
-      "attackSpeed": 0.5,
-      "critChance": 0.25,
-      "critMultiplier": 1.23,
-      "damage": 80.0,
-      "hp": 650.0,
-      "initialMana": 60.0,
-      "magicResist": 40.0,
-      "mana": 120.0,
-      "range": 1.0
-    },
-    "traits": ["Revel", "Bruiser"]
-  }
 ]

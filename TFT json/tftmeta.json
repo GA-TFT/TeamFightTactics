@@ -1457,12 +1457,6 @@
           "value": [130.0, 160.0, 200.0]
         },
         {
-          "name": "NumOfCharges",
-          "value": [2.0, 2.0, 2.0]
-        },
-        { "name": "HexRadius", "value": [1.0, 1.0, 1.0] },
-        { "name": "Duration", "value": [1.0, 1.0, 1.0] },
-        {
           "name": "PercentAD",
           "value": [1.4, 1.7, 2.0]
         }
@@ -1474,8 +1468,6 @@
     "stats": {
       "armor": 20.0,
       "attackSpeed": 0.7,
-      "critChance": 0.25,
-      "critMultiplier": 1.3,
       "damage": 60.0,
       "hp": 600.0,
       "initialMana": 0,

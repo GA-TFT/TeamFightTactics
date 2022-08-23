@@ -543,12 +543,10 @@
     },
     "cost": 1,
     "name": "Karma",
-    "icon": "https://cdn.mobalytics.gg/assets/tft/images/champions/thumbnail/set7/karma.jpg",
+    "icon": "https://cdn.mobalytics.gg/assets/tft/images/champions/page-background/set7/karma.jpg",
     "stats": {
       "armor": 20.0,
       "attackSpeed": 0.7,
-      "critChance": 0.25,
-      "critMultiplier": 1.3,
       "damage": 40.0,
       "hp": 500.0,
       "initialMana": 0,

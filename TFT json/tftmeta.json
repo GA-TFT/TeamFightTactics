@@ -1251,12 +1251,8 @@
       "abilicon": "https://rerollcdn.com/abilities/7/swain-draconic-ascension.png",
       "variables": [
         {
-          "name": "FireballDamage",
+          "name": "Fireball Damage",
           "value": [65.0, 105.0, 165.0]
-        },
-        {
-          "name": "PercentBonusDamage",
-          "value": [100.0, 100.0, 100.0]
         }
       ]
     },
@@ -1266,8 +1262,6 @@
     "stats": {
       "armor": 30.0,
       "attackSpeed": 0.7,
-      "critChance": 0.25,
-      "critMultiplier": 1.2,
       "damage": 45.0,
       "hp": 600.0,
       "initialMana": 0,

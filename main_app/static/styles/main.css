@@ -1,5 +1,5 @@
 body {
-    background-color: #121212;
+    background-color: #000000;
     color: #ffffff;
     min-height: 100vh;
 }
@@ -8,6 +8,10 @@ h1,
 h2,
 h3 {
     color: #ffffff;
+}
+
+h1 {
+    font-size: 70px;
 }
 
 .title {
@@ -32,4 +36,9 @@ h3 {
 
 p {
     font-size: 12px;
+}
+
+.navbar-menu navbar-start, navbar-item {
+    justify-content: center;
+    align-items: center;
 }

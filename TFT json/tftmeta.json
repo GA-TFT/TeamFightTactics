@@ -1478,4 +1478,46 @@
     },
     "traits": ["Revel", "Evoker"]
   },
+  {
+    "ability": {
+      "desc": "Passive: While any ally is below 50% Health, Soraka gains an additional 15 mana per attack.Active: Soraka calls down a shower of stars over the next 2 seconds. Allies are healed each time a star hits them.",
+      "name": "Starfall",
+      "abilicon":"https://rerollcdn.com/abilities/7/soraka-starfall.png",
+      "variables": [
+        {
+          "name": "Healing",
+          "value": [120.0, 180.0, 1000.0]
+        },
+        {
+          "name": "Stars",
+          "value": [14.0, 14.0, 14.0]
+        },
+        { "name": "Duration", "value": [2.0, 2.0, 2.0] },
+        {
+          "name": "ManaPerAttack",
+          "value": [15.0, 15.0, 15.0]
+        },
+        {
+          "name": "HealthThreshold",
+          "value": [50.0, 50.0, 50.0, 50.0]
+        }
+      ]
+    },
+    "cost": 5,
+    "name": "Soraka",
+    "icon":"https://cdn.mobalytics.gg/assets/tft/images/champions/thumbnail/set7/soraka.jpg",
+    "stats": {
+      "armor": 30.0,
+      "attackSpeed": 0.7,
+      "critChance": 0.25,
+      "critMultiplier": 1.3,
+      "damage": 40.0,
+      "hp": 800.0,
+      "initialMana": 100.0,
+      "magicResist": 30.0,
+      "mana": 200.0,
+      "range": 4.0
+    },
+    "traits": ["Jade", "Starcaller"]
+  },
 ]

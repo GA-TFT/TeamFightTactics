@@ -1346,16 +1346,7 @@
         {
           "name": "MagicDamage",
           "value": [75.0, 100.0, 125.0]
-        },
-        {
-          "name": "ShieldDuration",
-          "value": [6.0, 6.0, 6.0]
-        },
-        {
-          "name": "ShieldHealthRatio",
-          "value": [0.1, 0.1, 0.1]
-        },
-        { "name": "NumAttacks", "value": [3.0, 3.0, 3.0] }
+        }
       ]
     },
     "cost": 1,
@@ -1364,8 +1355,6 @@
     "stats": {
       "armor": 40.0,
       "attackSpeed": 0.5,
-      "critChance": 0.25,
-      "critMultiplier": 1.23,
       "damage": 80.0,
       "hp": 650.0,
       "initialMana": 60.0,

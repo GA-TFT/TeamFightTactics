@@ -282,61 +282,6 @@
   },
   {
     "ability": {
-      "desc": "Talon stealths for 1.5 seconds and flings out a ring of blades, dealing a % of his Attack Damage to enemies hit. He then leaps to the farthest enemy within 4 hexes and recalls the blades, dealing that damage again and dealing 325% of his Attack Damage plus bonus physical damage to his target.",
-      "name": "Shadow Assault",
-      "variables": [
-        {
-          "name": "StealthDuration",
-          "value": [1.5, 1.5, 1.5]
-        },
-        {
-          "name": "BaseDamage",
-          "value": [120.0, 200.0, 1200.0]
-        },
-        {
-          "name": "ADRatio",
-          "value": [3.25, 3.25, 3.25]
-        },
-        {
-          "name": "SecondaryRatio",
-          "value": [0.75, 1.0, 3.0]
-        },
-        {
-          "name": "DashHexRange",
-          "value": [4.0, 4.0, 4.0]
-        },
-        {
-          "name": "GuildBonus",
-          "value": [10.0, 10.0, 10.0]
-        },
-        {
-          "name": "NumBlades",
-          "value": [12.0, 12.0, 12.0]
-        },
-        {
-          "name": "RingOffsetDistance",
-          "value": [550.0, 550.0, 550.0]
-        }
-      ]
-    },
-    "cost": 4,
-    "name": "Talon",
-    "stats": {
-      "armor": 40.0,
-      "attackSpeed": 0.8,
-      "critChance": 0.25,
-      "critMultiplier": 1.3,
-      "damage": 60.0,
-      "hp": 800.0,
-      "initialMana": 75.0,
-      "magicResist": 40.0,
-      "mana": 125.0,
-      "range": 1.0
-    },
-    "traits": ["Guild", "Assassin"]
-  },
-  {
-    "ability": {
       "desc": "Zoe nabs a spell from another dimension and casts it as if it were her own.",
       "name": "Spell Thief",
       "variables": [{ "name": "BaseDamage", "value": null }]

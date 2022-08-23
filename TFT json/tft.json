@@ -29,37 +29,6 @@
   },
   {
     "ability": {
-      "desc": "Swain transforms into Dragon Form, replacing his attacks with fireballs that deal magic damage and replacing his Ability with Greater Fireball. Greater Fireball: Swain's next fireball deals 100% more damage and explodes in an area around his target.",
-      "name": "Draconic Ascension",
-      "variables": [
-        {
-          "name": "FireballDamage",
-          "value": [65.0, 105.0, 165.0]
-        },
-        {
-          "name": "PercentBonusDamage",
-          "value": [100.0, 100.0, 100.0]
-        }
-      ]
-    },
-    "cost": 3,
-    "name": "Swain",
-    "stats": {
-      "armor": 30.0,
-      "attackSpeed": 0.7,
-      "critChance": 0.25,
-      "critMultiplier": 1.2,
-      "damage": 45.0,
-      "hp": 600.0,
-      "initialMana": 0,
-      "magicResist": 30.0,
-      "mana": 45.0,
-      "range": 4.0
-    },
-    "traits": ["Ragewing", "Dragonmancer", "Shapeshifter"]
-  },
-  {
-    "ability": {
       "desc": "Thresh hooks the farthest enemy, dealing magic damage, stunning them for 2 seconds and pulling them towards himself over the duration.",
       "name": "Death Sentence",
       "variables": [

@@ -511,21 +511,15 @@
         {
           "name": "StunDuration",
           "value": [1.5, 1.5, 2.0]
-        },
-        {
-          "name": "ManaRefund",
-          "value": [25.0, 25.0, 25.0]
         }
       ]
     },
     "cost": 2,
     "name": "Jinx",
-    "icon": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/f/f2/Skin_Splash_Firecracker_Jinx.jpg/revision/latest?cb=20191210044446",
+    "icon": "https://cdn.mobalytics.gg/assets/tft/images/champions/page-background/set7/jinx.jpg",
     "stats": {
       "armor": 20.0,
       "attackSpeed": 0.7,
-      "critChance": 0.25,
-      "critMultiplier": 1.3,
       "damage": 60.0,
       "hp": 550.0,
       "initialMana": 50.0,

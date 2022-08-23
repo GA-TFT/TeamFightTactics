@@ -482,46 +482,6 @@
     },
     "traits": ["Ragewing", "Swiftshot"]
   },
-
-
-  {
-    "ability": {
-      "desc": "Sylas whirls his chains, dealing @ModifiedDamage@ magic damage to enemies hit and shielding himself for @ModifiedShield@ for @ShieldDuration@ seconds. If Sylas has already shielded himself, he hits in a larger area and applies Mana-Reave to enemies hit, increasing the cost of their next ability by 35%.",
-      "icon": "ASSETS/Characters/Sylas/HUD/Icons2D/SylasP.dds",
-      "name": "Petricite Burst",
-      "variables": [
-        {
-          "name": "Damage",
-          "value": [0.0, 110.0, 170.0, 240.0, 0.0, 0.0, 0.0]
-        },
-        {
-          "name": "Shield",
-          "value": [0.0, 365.0, 415.0, 475.0, 0.0, 0.0, 0.0]
-        },
-        {
-          "name": "ShieldDuration",
-          "value": [0.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0]
-        }
-      ]
-    },
-    "apiName": "TFT7_Sylas",
-    "cost": 3,
-    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT7_Sylas.TFT_Set7.dds",
-    "name": "Sylas",
-    "stats": {
-      "armor": 50.0,
-      "attackSpeed": 0.6000000238418579,
-      "critChance": 0.25,
-      "critMultiplier": 1.30,
-      "damage": 60.0,
-      "hp": 800.0,
-      "initialMana": 70.0,
-      "magicResist": 50.0,
-      "mana": 140.0,
-      "range": 1.0
-    },
-    "traits": ["Whispers", "Mage", "Bruiser"]
-  },
   {
     "ability": {
       "desc": "Taric grants himself and his closest ally a protective rune that increases Armor by @ModifiedArmor@ for @Duration@ seconds.",
@@ -538,7 +498,7 @@
     "name": "Taric",
     "stats": {
       "armor": 45.0,
-      "attackSpeed": 0.6000000238418579,
+      "attackSpeed": 0.60,
       "critChance": 0.25,
       "critMultiplier": 1.30,
       "damage": 70.0,
@@ -655,7 +615,7 @@
     "name": "Nomsy",
     "stats": {
       "armor": 0.0,
-      "attackSpeed": 0.6000000238418579,
+      "attackSpeed": 0.60,
       "critChance": 0.25,
       "critMultiplier": 1.5,
       "damage": 0.0,

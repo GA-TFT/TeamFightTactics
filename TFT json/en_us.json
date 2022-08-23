@@ -4501,7 +4501,7 @@
                     "name": "Vladimir",
                     "stats": {
                         "armor": 45.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 40.0,
@@ -5021,7 +5021,7 @@
                     "name": "Ezreal",
                     "stats": {
                         "armor": 15.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 40.0,
@@ -5152,7 +5152,7 @@
                     "name": "Skarner",
                     "stats": {
                         "armor": 45.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 55.0,
@@ -5259,7 +5259,7 @@
                     "name": "Thresh",
                     "stats": {
                         "armor": 45.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 70.0,
@@ -6145,7 +6145,7 @@
                     "name": "Ornn",
                     "stats": {
                         "armor": 60.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 60.0,
@@ -6841,7 +6841,7 @@
                     "name": "Illaoi",
                     "stats": {
                         "armor": 50.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 55.0,
@@ -6889,7 +6889,7 @@
                             {
                                 "name": "StatRatio",
                                 "value": [
-                                    0.6000000238418579,
+                                    0.60,
                                     0.800000011920929,
                                     1.0,
                                     1.5,
@@ -6901,7 +6901,7 @@
                             {
                                 "name": "HealthRatio",
                                 "value": [
-                                    0.6000000238418579,
+                                    0.60,
                                     0.10000000149011612,
                                     0.20000000298023224,
                                     0.5,
@@ -7586,7 +7586,7 @@
                                 "name": "ShieldDR",
                                 "value": [
                                     0.5,
-                                    0.6000000238418579,
+                                    0.60,
                                     0.699999988079071,
                                     0.800000011920929,
                                     0.8999999761581421,
@@ -7614,7 +7614,7 @@
                     "name": "Braum",
                     "stats": {
                         "armor": 60.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 50.0,
@@ -7679,7 +7679,7 @@
                     "name": "Sylas",
                     "stats": {
                         "armor": 50.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 60.0,
@@ -7733,7 +7733,7 @@
                     "name": "Taric",
                     "stats": {
                         "armor": 45.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 70.0,
@@ -8289,7 +8289,7 @@
                     "name": "Daeja",
                     "stats": {
                         "armor": 40.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 20.0,
@@ -8467,7 +8467,7 @@
                     "name": "Nomsy",
                     "stats": {
                         "armor": 0.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.5,
                         "damage": 0.0,
@@ -10072,7 +10072,7 @@
                     "name": "Leona",
                     "stats": {
                         "armor": 50.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 50.0,
@@ -10255,7 +10255,7 @@
                     "name": "Zac",
                     "stats": {
                         "armor": 45.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 60.0,
@@ -10421,7 +10421,7 @@
                     "name": "Camille",
                     "stats": {
                         "armor": 40.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 45.0,
@@ -10498,7 +10498,7 @@
                     "name": "Zilean",
                     "stats": {
                         "armor": 20.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 40.0,
@@ -11846,7 +11846,7 @@
                     "name": "Ziggs",
                     "stats": {
                         "armor": 15.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 55.0,
@@ -12180,7 +12180,7 @@
                     "name": "Vex",
                     "stats": {
                         "armor": 50.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 50.0,
@@ -12358,7 +12358,7 @@
                     "name": "Mechanical Bear",
                     "stats": {
                         "armor": 50.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.5,
                         "damage": 50.0,
@@ -12599,7 +12599,7 @@
                     "name": "Braum",
                     "stats": {
                         "armor": 60.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 70.0,
@@ -13132,7 +13132,7 @@
                     "name": "Annie",
                     "stats": {
                         "armor": 40.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.5,
                         "damage": 45.0,
@@ -13513,7 +13513,7 @@
                                 "value": [
                                     0.0,
                                     0.30000001192092896,
-                                    0.6000000238418579,
+                                    0.60,
                                     3.0,
                                     0.0,
                                     0.0,
@@ -13694,7 +13694,7 @@
                     "name": "Morgana",
                     "stats": {
                         "armor": 50.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 50.0,
@@ -13985,13 +13985,13 @@
                             {
                                 "name": "MultiOrbDamage",
                                 "value": [
-                                    0.6000000238418579,
-                                    0.6000000238418579,
-                                    0.6000000238418579,
-                                    0.6000000238418579,
-                                    0.6000000238418579,
-                                    0.6000000238418579,
-                                    0.6000000238418579
+                                    0.60,
+                                    0.60,
+                                    0.60,
+                                    0.60,
+                                    0.60,
+                                    0.60,
+                                    0.60
                                 ]
                             },
                             {
@@ -14144,13 +14144,13 @@
                             {
                                 "name": "PercentHealing",
                                 "value": [
-                                    0.6000000238418579,
-                                    0.6000000238418579,
-                                    0.6000000238418579,
-                                    0.6000000238418579,
-                                    0.6000000238418579,
-                                    0.6000000238418579,
-                                    0.6000000238418579
+                                    0.60,
+                                    0.60,
+                                    0.60,
+                                    0.60,
+                                    0.60,
+                                    0.60,
+                                    0.60
                                 ]
                             },
                             {
@@ -14254,7 +14254,7 @@
                     "name": "Alistar",
                     "stats": {
                         "armor": 80.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 90.0,
@@ -14687,7 +14687,7 @@
                     "name": "Swain",
                     "stats": {
                         "armor": 45.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 40.0,
@@ -15829,7 +15829,7 @@
                     "name": "Vladimir",
                     "stats": {
                         "armor": 45.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 40.0,
@@ -16349,7 +16349,7 @@
                     "name": "Ezreal",
                     "stats": {
                         "armor": 15.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 40.0,
@@ -16480,7 +16480,7 @@
                     "name": "Skarner",
                     "stats": {
                         "armor": 45.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 55.0,
@@ -16587,7 +16587,7 @@
                     "name": "Thresh",
                     "stats": {
                         "armor": 45.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 70.0,
@@ -17473,7 +17473,7 @@
                     "name": "Ornn",
                     "stats": {
                         "armor": 60.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 60.0,
@@ -18169,7 +18169,7 @@
                     "name": "Illaoi",
                     "stats": {
                         "armor": 50.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 55.0,
@@ -18217,7 +18217,7 @@
                             {
                                 "name": "StatRatio",
                                 "value": [
-                                    0.6000000238418579,
+                                    0.60,
                                     0.800000011920929,
                                     1.0,
                                     1.5,
@@ -18229,7 +18229,7 @@
                             {
                                 "name": "HealthRatio",
                                 "value": [
-                                    0.6000000238418579,
+                                    0.60,
                                     0.10000000149011612,
                                     0.20000000298023224,
                                     0.5,
@@ -18914,7 +18914,7 @@
                                 "name": "ShieldDR",
                                 "value": [
                                     0.5,
-                                    0.6000000238418579,
+                                    0.60,
                                     0.699999988079071,
                                     0.800000011920929,
                                     0.8999999761581421,
@@ -18942,7 +18942,7 @@
                     "name": "Braum",
                     "stats": {
                         "armor": 60.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 50.0,
@@ -19007,7 +19007,7 @@
                     "name": "Sylas",
                     "stats": {
                         "armor": 50.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 60.0,
@@ -19061,7 +19061,7 @@
                     "name": "Taric",
                     "stats": {
                         "armor": 45.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 70.0,
@@ -19617,7 +19617,7 @@
                     "name": "Daeja",
                     "stats": {
                         "armor": 40.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 20.0,
@@ -19795,7 +19795,7 @@
                     "name": "Nomsy",
                     "stats": {
                         "armor": 0.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.5,
                         "damage": 0.0,
@@ -21280,7 +21280,7 @@
                     "name": "Vladimir",
                     "stats": {
                         "armor": 45.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 40.0,
@@ -21800,7 +21800,7 @@
                     "name": "Ezreal",
                     "stats": {
                         "armor": 15.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 40.0,
@@ -21931,7 +21931,7 @@
                     "name": "Skarner",
                     "stats": {
                         "armor": 45.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 55.0,
@@ -22038,7 +22038,7 @@
                     "name": "Thresh",
                     "stats": {
                         "armor": 45.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 70.0,
@@ -22924,7 +22924,7 @@
                     "name": "Ornn",
                     "stats": {
                         "armor": 60.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 60.0,
@@ -23620,7 +23620,7 @@
                     "name": "Illaoi",
                     "stats": {
                         "armor": 50.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 55.0,
@@ -23668,7 +23668,7 @@
                             {
                                 "name": "StatRatio",
                                 "value": [
-                                    0.6000000238418579,
+                                    0.60,
                                     0.800000011920929,
                                     1.0,
                                     1.5,
@@ -23680,7 +23680,7 @@
                             {
                                 "name": "HealthRatio",
                                 "value": [
-                                    0.6000000238418579,
+                                    0.60,
                                     0.10000000149011612,
                                     0.20000000298023224,
                                     0.5,
@@ -24365,7 +24365,7 @@
                                 "name": "ShieldDR",
                                 "value": [
                                     0.5,
-                                    0.6000000238418579,
+                                    0.60,
                                     0.699999988079071,
                                     0.800000011920929,
                                     0.8999999761581421,
@@ -24393,7 +24393,7 @@
                     "name": "Braum",
                     "stats": {
                         "armor": 60.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 50.0,
@@ -24458,7 +24458,7 @@
                     "name": "Sylas",
                     "stats": {
                         "armor": 50.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 60.0,
@@ -24512,7 +24512,7 @@
                     "name": "Taric",
                     "stats": {
                         "armor": 45.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 70.0,
@@ -25068,7 +25068,7 @@
                     "name": "Daeja",
                     "stats": {
                         "armor": 40.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 20.0,
@@ -25246,7 +25246,7 @@
                     "name": "Nomsy",
                     "stats": {
                         "armor": 0.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.5,
                         "damage": 0.0,
@@ -26851,7 +26851,7 @@
                     "name": "Leona",
                     "stats": {
                         "armor": 50.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 50.0,
@@ -27034,7 +27034,7 @@
                     "name": "Zac",
                     "stats": {
                         "armor": 45.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 60.0,
@@ -27200,7 +27200,7 @@
                     "name": "Camille",
                     "stats": {
                         "armor": 40.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 45.0,
@@ -27277,7 +27277,7 @@
                     "name": "Zilean",
                     "stats": {
                         "armor": 20.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 40.0,
@@ -28625,7 +28625,7 @@
                     "name": "Ziggs",
                     "stats": {
                         "armor": 15.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 55.0,
@@ -28959,7 +28959,7 @@
                     "name": "Vex",
                     "stats": {
                         "armor": 50.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 50.0,
@@ -29137,7 +29137,7 @@
                     "name": "Mechanical Bear",
                     "stats": {
                         "armor": 50.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.5,
                         "damage": 50.0,
@@ -29378,7 +29378,7 @@
                     "name": "Braum",
                     "stats": {
                         "armor": 60.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 70.0,
@@ -29911,7 +29911,7 @@
                     "name": "Annie",
                     "stats": {
                         "armor": 40.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.5,
                         "damage": 45.0,
@@ -30292,7 +30292,7 @@
                                 "value": [
                                     0.0,
                                     0.30000001192092896,
-                                    0.6000000238418579,
+                                    0.60,
                                     3.0,
                                     0.0,
                                     0.0,
@@ -30579,7 +30579,7 @@
                     "name": "Morgana",
                     "stats": {
                         "armor": 50.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 50.0,
@@ -30870,13 +30870,13 @@
                             {
                                 "name": "MultiOrbDamage",
                                 "value": [
-                                    0.6000000238418579,
-                                    0.6000000238418579,
-                                    0.6000000238418579,
-                                    0.6000000238418579,
-                                    0.6000000238418579,
-                                    0.6000000238418579,
-                                    0.6000000238418579
+                                    0.60,
+                                    0.60,
+                                    0.60,
+                                    0.60,
+                                    0.60,
+                                    0.60,
+                                    0.60
                                 ]
                             },
                             {
@@ -31029,13 +31029,13 @@
                             {
                                 "name": "PercentHealing",
                                 "value": [
-                                    0.6000000238418579,
-                                    0.6000000238418579,
-                                    0.6000000238418579,
-                                    0.6000000238418579,
-                                    0.6000000238418579,
-                                    0.6000000238418579,
-                                    0.6000000238418579
+                                    0.60,
+                                    0.60,
+                                    0.60,
+                                    0.60,
+                                    0.60,
+                                    0.60,
+                                    0.60
                                 ]
                             },
                             {
@@ -31139,7 +31139,7 @@
                     "name": "Alistar",
                     "stats": {
                         "armor": 80.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 90.0,
@@ -31572,7 +31572,7 @@
                     "name": "Swain",
                     "stats": {
                         "armor": 45.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 40.0,
@@ -33000,7 +33000,7 @@
                     "name": "Vladimir",
                     "stats": {
                         "armor": 45.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 40.0,
@@ -33520,7 +33520,7 @@
                     "name": "Ezreal",
                     "stats": {
                         "armor": 15.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 40.0,
@@ -33651,7 +33651,7 @@
                     "name": "Skarner",
                     "stats": {
                         "armor": 45.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 55.0,
@@ -33758,7 +33758,7 @@
                     "name": "Thresh",
                     "stats": {
                         "armor": 45.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 70.0,
@@ -34644,7 +34644,7 @@
                     "name": "Ornn",
                     "stats": {
                         "armor": 60.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 60.0,
@@ -35340,7 +35340,7 @@
                     "name": "Illaoi",
                     "stats": {
                         "armor": 50.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 55.0,
@@ -35388,7 +35388,7 @@
                             {
                                 "name": "StatRatio",
                                 "value": [
-                                    0.6000000238418579,
+                                    0.60,
                                     0.800000011920929,
                                     1.0,
                                     1.5,
@@ -35400,7 +35400,7 @@
                             {
                                 "name": "HealthRatio",
                                 "value": [
-                                    0.6000000238418579,
+                                    0.60,
                                     0.10000000149011612,
                                     0.20000000298023224,
                                     0.5,
@@ -36085,7 +36085,7 @@
                                 "name": "ShieldDR",
                                 "value": [
                                     0.5,
-                                    0.6000000238418579,
+                                    0.60,
                                     0.699999988079071,
                                     0.800000011920929,
                                     0.8999999761581421,
@@ -36113,7 +36113,7 @@
                     "name": "Braum",
                     "stats": {
                         "armor": 60.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 50.0,
@@ -36178,7 +36178,7 @@
                     "name": "Sylas",
                     "stats": {
                         "armor": 50.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 60.0,
@@ -36232,7 +36232,7 @@
                     "name": "Taric",
                     "stats": {
                         "armor": 45.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 70.0,
@@ -36788,7 +36788,7 @@
                     "name": "Daeja",
                     "stats": {
                         "armor": 40.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.30,
                         "damage": 20.0,
@@ -36966,7 +36966,7 @@
                     "name": "Nomsy",
                     "stats": {
                         "armor": 0.0,
-                        "attackSpeed": 0.6000000238418579,
+                        "attackSpeed": 0.60,
                         "critChance": 0.25,
                         "critMultiplier": 1.5,
                         "damage": 0.0,

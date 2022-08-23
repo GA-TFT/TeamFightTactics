@@ -1594,4 +1594,41 @@
     },
     "traits": ["Whispers", "Bruiser", "Dragon"]
   },
+  {
+    "ability": {
+      "desc": "Sylas whirls his chains, dealing magic damage to enemies hit and gaining a shield for 6 seconds. If this hits while the shield persists, this hits a larger area and applies Mana-Reave to enemies hit, increasing the cost of their next ability by 35%.",
+      "name": "Petricite Burst",
+      "abilicon":"https://rerollcdn.com/abilities/7/sylas-petricite-burst.png",
+      "variables": [
+        {
+          "name": "Damage",
+          "value": [110.0, 170.0, 240.0]
+        },
+        {
+          "name": "Shield",
+          "value": [365.0, 415.0, 475.0]
+        },
+        {
+          "name": "ShieldDuration",
+          "value": [6.0, 6.0, 6.0]
+        }
+      ]
+    },
+    "cost": 3,
+    "name": "Sylas",
+    "icon":"https://cdn.mobalytics.gg/assets/tft/images/champions/page-background/set7/sylas.jpg",
+    "stats": {
+      "armor": 50.0,
+      "attackSpeed": 0.60,
+      "critChance": 0.25,
+      "critMultiplier": 1.30,
+      "damage": 60.0,
+      "hp": 800.0,
+      "initialMana": 70.0,
+      "magicResist": 50.0,
+      "mana": 140.0,
+      "range": 1.0
+    },
+    "traits": ["Whispers", "Mage", "Bruiser"]
+  },
 ]

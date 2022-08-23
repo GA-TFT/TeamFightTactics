@@ -282,6 +282,7 @@
     "ability": {
       "desc": "Shyvana transforms into Dragon Form for the rest of combat, replacing her ability with Flame Breath. She then becomes untargetable before dive-bombing the largest group of enemies, dealing magic damage and stunning them for 1.5 seconds. Flame Breath: Shyvana breathes fire in a cone, dealing magic damage.",
       "name": "Dragon's Descent",
+      "abilicon":"https://rerollcdn.com/abilities/7/shyvana-dragons-descent.png",
       "variables": [
         {
           "name": "InitialDamage",
@@ -311,6 +312,7 @@
     },
     "cost": 5,
     "name": "Shyvana",
+    "icon":"https://cdn.mobalytics.gg/assets/tft/images/champions/page-background/set7-5/shyvana.jpg",
     "stats": {
       "armor": 70.0,
       "attackSpeed": 0.8,

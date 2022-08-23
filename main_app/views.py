@@ -9,10 +9,10 @@ class Home(TemplateView):
     template_name = 'home.html'
 
 class Champions(TemplateView):
-    template_name = 'champions.hmtl'
+    template_name = 'champions.html'
 
 class Augments(TemplateView):
     template_name = 'augments.html'
 
 class TraitsList(TemplateView):
-    template_name = 'traits.hmtl'
+    template_name = 'traits.html'

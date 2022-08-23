@@ -12,30 +12,24 @@
         <title>Team Fight Meta - {% block title %}{% endblock %}</title> 
     </head>
     <body >
-        <nav class="navbar is-black" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">
-                <img class='logo' src="https://i.imgur.com/SJYQFET.png">
+        <header>
+            <div class='menu'>
+                <img class='logo' href='/' src="https://i.imgur.com/SJYQFET.png">
+                <div class="btn">
+                    <i class="fas fa-times close-btn"></i>
+                </div>
                 <a class="navbar-item" href="/">Home</a>
-                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                </a>
-            </div>
-            <div class="navbar-menu navbar-start">
                 <a class="navbar-item" href="/champions">Champions</a>
                 <a class="navbar-item" href="/augments">Augments</a>
                 <a class="navbar-item" href="/traits">Traits</a>
             </div>
-            <div class="navbar-menu navbar-end">
+            <div class="btn">
+                <i class="fas fa-bars menu-btn"></i>
             </div>
-        </nav>
-        <div class="container">
-
-            {% block content %}{% endblock %}
-
-        </div>
-      </div>
-    </div>
-  </body>
+        </header>
+        <section class="section-main">
+            <h1> Welcome to Team Fight Meta</h1>
+        </section>
+        {% block content %}{% endblock %}
+</body>
 </html>

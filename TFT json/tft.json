@@ -472,7 +472,7 @@
       "armor": 25.0,
       "attackSpeed": 0.75,
       "critChance": 0.25,
-      "critMultiplier": 1.2999999523162842,
+      "critMultiplier": 1.30,
       "damage": 70.0,
       "hp": 750.0,
       "initialMana": 0,
@@ -512,7 +512,7 @@
       "armor": 50.0,
       "attackSpeed": 0.6000000238418579,
       "critChance": 0.25,
-      "critMultiplier": 1.2999999523162842,
+      "critMultiplier": 1.30,
       "damage": 60.0,
       "hp": 800.0,
       "initialMana": 70.0,
@@ -540,7 +540,7 @@
       "armor": 45.0,
       "attackSpeed": 0.6000000238418579,
       "critChance": 0.25,
-      "critMultiplier": 1.2999999523162842,
+      "critMultiplier": 1.30,
       "damage": 70.0,
       "hp": 700.0,
       "initialMana": 0,
@@ -598,7 +598,7 @@
       "armor": 20.0,
       "attackSpeed": 0.699999988079071,
       "critChance": 0.25,
-      "critMultiplier": 1.2999999523162842,
+      "critMultiplier": 1.30,
       "damage": 55.0,
       "hp": 550.0,
       "initialMana": 40.0,
@@ -608,48 +608,7 @@
     },
     "traits": ["Guild", "Swiftshot"]
   },
-  {
-    "ability": {
-      "desc": "Sy'fen charges toward the farthest enemy within @ChargeDistance@ hexes, dealing <scaleAD>@TotalDamage@</scaleAD> physical damage (@ADRatio*100@% of Attack Damage %i:scaleAD%) and knocking up enemies he passes through.<br><br>After charging, Sy'fen bites an enemy, dealing <scaleAD>@TotalBiteDamage@</scaleAD> physical damage (@BiteADRatio*100@% Attack Damage %i:scaleAD%) and ignoring @ModifiedArmorPenPercent@% of the target's Armor. This bite cannot be dodged.",
-      "icon": "ASSETS/Characters/TFT7_DragonPurple/HUD/Icons2D/TFT7_DragonPurple_Ability.TFT_Set7.dds",
-      "name": "Rampage",
-      "variables": [
-        {
-          "name": "ADRatio",
-          "value": [0.0, 1.5, 1.7000000476837158, 4.5, 2.0, 2.0, 2.0]
-        },
-        {
-          "name": "BiteADRatio",
-          "value": [0.0, 5.0, 6.0, 30.0, 0.0, 0.0, 0.0]
-        },
-        {
-          "name": "ArmorPenPercent",
-          "value": [0.0, 50.0, 50.0, 50.0, 50.0, 50.0, 50.0]
-        },
-        {
-          "name": "ChargeDistance",
-          "value": [2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0]
-        }
-      ]
-    },
-    "apiName": "TFT7_DragonPurple",
-    "cost": 4,
-    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT7_WhispersDragon.TFT_Set7.dds",
-    "name": "Sy'fen",
-    "stats": {
-      "armor": 70.0,
-      "attackSpeed": 0.699999988079071,
-      "critChance": 0.25,
-      "critMultiplier": 1.2999999523162842,
-      "damage": 110.0,
-      "hp": 1100.0,
-      "initialMana": 120.0,
-      "magicResist": 70.0,
-      "mana": 175.0,
-      "range": 1.0
-    },
-    "traits": ["Whispers", "Bruiser", "Dragon"]
-  },
+  
   {
     "ability": {
       "desc": "Nomsy breathes fire towards its target, dealing @ModifiedDamage@ magic damage to enemies hit and burning them for @TooltipBurnPercent*100@% of their maximum Health true damage per second over @BurnDuration@ seconds. Burned enemies suffer @GrievousWoundsPercent@% reduced healing.",
@@ -723,7 +682,7 @@
       "armor": 15.0,
       "attackSpeed": 0.6499999761581421,
       "critChance": 0.25,
-      "critMultiplier": 1.2999999523162842,
+      "critMultiplier": 1.30,
       "damage": null,
       "hp": 1.0,
       "initialMana": 0,

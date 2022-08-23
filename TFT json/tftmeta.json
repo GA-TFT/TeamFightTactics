@@ -1553,4 +1553,45 @@
     },
     "traits": ["Ragewing", "Dragonmancer", "Shapeshifter"]
   },
+  {
+    "ability": {
+      "desc": "Sy'fen charges towards the farthest enemy within 2.5 hexes, dealing a % of his Attack Damage and knocking up enemies they pass through.After charging, Sy'fen bites an enemy dealing a % of his Attack Damage and ignoring 50% of the target's Armor.",
+      "name": "Rampage",
+      "abilicon":"https://rerollcdn.com/abilities/7/syfen-rampage.png",
+      "variables": [
+        {
+          "name": "ADRatio",
+          "value": [1.5, 1.70, 4.5]
+        },
+        {
+          "name": "BiteADRatio",
+          "value": [5.0, 6.0, 30.0]
+        },
+        {
+          "name": "ArmorPenPercent",
+          "value": [50.0, 50.0, 50.0]
+        },
+        {
+          "name": "ChargeDistance",
+          "value": [2.0, 2.0, 2.0]
+        }
+      ]
+    },
+    "cost": 8,
+    "name": "Sy'fen",
+    "icon":"https://cdn.mobalytics.gg/assets/tft/images/champions/thumbnail/set7/syfen.jpg",
+    "stats": {
+      "armor": 70.0,
+      "attackSpeed": 0.70,
+      "critChance": 0.25,
+      "critMultiplier": 1.30,
+      "damage": 110.0,
+      "hp": 1100.0,
+      "initialMana": 120.0,
+      "magicResist": 70.0,
+      "mana": 175.0,
+      "range": 1.0
+    },
+    "traits": ["Whispers", "Bruiser", "Dragon"]
+  },
 ]

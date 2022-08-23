@@ -806,4 +806,563 @@
     },
     "traits": ["Scalescorn", "Cavalier", "Mage"]
   },
+  {
+    "ability": {
+      "desc": "Lulu enchants the nearest units. Enchanted allies gain Attack Speed for 5 seconds. Enchanted enemies are stunned and transformed into harmless dragonlings for 1.5 seconds, taking 20% increased damage while stunned. If there are fewer units nearby, Lulu will enchant herself.",
+      "name": "Whimsy",
+      "abilicon":"https://rerollcdn.com/abilities/7/lulu-whimsy.png",
+      "variables": [
+        { "name": "NumTargets", "value": [3.0, 4.0, 5.0] },
+        {
+          "name": "AttackSpeedPercent",
+          "value": [0.7, 0.8, 1.2]
+        },
+        {
+          "name": "AllyBuffDuration",
+          "value": [5.0, 5.0, 5.0]
+        },
+        {
+          "name": "PolymorphDuration",
+          "value": [1.5, 1.5, 1.5]
+        },
+        {
+          "name": "DamageAmp",
+          "value": [20.0, 20.0, 20.0]
+        }
+      ]
+    },
+    "cost": 3,
+    "name": "Lulu",
+    "icon":"https://cdn.mobalytics.gg/assets/tft/images/champions/thumbnail/set7/lulu.jpg",
+    "stats": {
+      "armor": 25.0,
+      "attackSpeed": 0.7,
+      "critChance": 0.25,
+      "critMultiplier": 1.3,
+      "damage": 40.0,
+      "hp": 650.0,
+      "initialMana": 75.0,
+      "magicResist": 25.0,
+      "mana": 150.0,
+      "range": 3.0
+    },
+    "traits": ["Trainer", "Mystic", "Evoker"]
+  },
+  {
+    "ability": {
+      "desc": "Nami launches a stream of water at her target that bounces to 2 additional targets, prioritizing low Health targets and alternating between enemies and allies. Enemies hit take magic damage and allies hit heal.",
+      "name": "Ebb and Flow",
+      "abilicon":"https://rerollcdn.com/abilities/7/nami-ebb-and-flow.png",
+      "variables": [
+        {
+          "name": "MagicDamage",
+          "value": [150.0, 180.0, 210.0]
+        },
+        {
+          "name": "Healing",
+          "value": [170.0, 190.0, 210.0]
+        },
+        { "name": "BounceCount", "value": [2.0, 2.0, 2.0] }
+      ]
+    },
+    "cost": 2,
+    "name": "Nami",
+    "icon":"https://cdn1.dotesports.com/wp-content/uploads/2022/06/10083623/TFT-Nami.jpg",
+    "stats": {
+      "armor": 20.0,
+      "attackSpeed": 0.65,
+      "critChance": 0.25,
+      "critMultiplier": 1.3,
+      "damage": 40.0,
+      "hp": 600.0,
+      "initialMana": 50.0,
+      "magicResist": 20.0,
+      "mana": 90.0,
+      "range": 3.0
+    },
+    "traits": ["Astral", "Mage", "Mystic"]
+  },
+  {
+    "ability": {
+      "desc": "Each Combat: Neeko disguises herself as the nearest allied champion, adding their bonus Attack Damage and Attack Speed to her own and copying all other stats except Health. She then gains a shield for an amount plus a % of her ally's Health.When the shield breaks she transforms into Neeko Form, reverts back to her own stats, and casts Pop Blossom, dealing magic damage to nearby enemies and stunning them for 1.5 seconds. Neeko then casts Pop Blossom each time she reaches maximum mana.",
+      "name": "Inherent Glamour",
+      "abilicon":"https://rerollcdn.com/abilities/7/neeko-inherent-glamour.png",
+      "variables": [
+        {
+          "name": "MagicDamage",
+          "value": [300.0, 425.0, 1500.0]
+        },
+        {
+          "name": "StunDuration",
+          "value": [1.5, 1.5, 1.5]
+        },
+        {
+          "name": "StatRatio",
+          "value": [0.8, 1.0, 1.5]
+        },
+        {
+          "name": "HealthRatio",
+          "value": [0.1, 0.2, 0.5]
+        },
+        {
+          "name": "OnHitBonusDamage",
+          "value": [40.0, 80.0, 200.0]
+        },
+        {
+          "name": "ShieldBase",
+          "value": [275.0, 400.0, 2000.0]
+        }
+      ]
+    },
+    "cost": 4,
+    "name": "Neeko",
+    "icon":"https://cdn.mobalytics.gg/assets/tft/images/champions/thumbnail/set7/neeko.jpg",
+    "stats": {
+      "armor": 20.0,
+      "attackSpeed": 0.7,
+      "critChance": 0.25,
+      "critMultiplier": 1.3,
+      "damage": 60.0,
+      "hp": 1000.0,
+      "initialMana": 0,
+      "magicResist": 20.0,
+      "mana": 150.0,
+      "range": 2.0
+    },
+    "traits": ["Jade", "Shapeshifter"]
+  },
+  {
+    "ability": {
+      "desc": "Nidalee transforms into Cougar Form for the rest of combat, reducing her Attack Range to 1 and gaining bonus movement speed and Attack Speed. While in cougar form, every third attack swipes her target for 225% physical damage.",
+      "name": "Primal Surge",
+      "abilicon":"https://rerollcdn.com/abilities/7/nidalee-primal-surge.png",
+      "variables": [
+        {
+          "name": "BaseAS",
+          "value": [0.4, 0.4, 0.4]
+        },
+        {
+          "name": "ADRatio",
+          "value": [2.25, 2.25, 2.25, 2.25, 2.25, 2.25, 2.25]
+        }
+      ]
+    },
+    "cost": 1,
+    "name": "Nidalee",
+    "icon":"https://cdnportal.mobalytics.gg/production/2022/05/0a13685d-nidalee.jpg",
+    "stats": {
+      "armor": 30.0,
+      "attackSpeed": 0.7,
+      "critChance": 0.25,
+      "critMultiplier": 1.3,
+      "damage": 55.0,
+      "hp": 550.0,
+      "initialMana": 0,
+      "magicResist": 30.0,
+      "mana": 50.0,
+      "range": 4.0
+    },
+    "traits": ["Astral", "Shapeshifter"]
+  },
+  {
+    "ability": {
+      "desc": "Nunu encourages Willump to bite his target, dealing magic damage. If Willump's target has less Health than he does before the bite, it deals an additional 33% damage and becomes true damage.",
+      "name": "Consume",
+      "abilicon": "https://rerollcdn.com/abilities/7/nunu-consume.png",
+      "variables": [
+        {
+          "name": "Damage",
+          "value": [350.0, 500.0, 800.0]
+        },
+        {
+          "name": "DamageAmp",
+          "value": [0.33, 0.33, 0.33]
+        }
+      ]
+    },
+    "cost": 3,
+    "name": "Nunu & Willump",
+    "icon": "https://cdnportal.mobalytics.gg/production/2022/05/ef52f27c-nunu.jpg",
+    "stats": {
+      "armor": 50.0,
+      "attackSpeed": 0.55,
+      "critChance": 0.25,
+      "critMultiplier": 1.30,
+      "damage": 65.0,
+      "hp": 850.0,
+      "initialMana": 40.0,
+      "magicResist": 50.0,
+      "mana": 100,
+      "range": 1.0
+    },
+    "traits": ["Mirage", "Cavalier"]
+  },
+  {
+    "ability": {
+      "desc": "Passive: Olaf seeks glorious death, permanently gaining 5 Attack Damage (10 in Hyper Roll) whenever he dies. Active: Olaf strikes his target, dealing 200% of his Attack Damage and gaining Attack Speed for 6 seconds. If he's below 50% Health, the Attack Speed is doubled.",
+      "name": "Recklessness",
+      "abilicon":"https://rerollcdn.com/abilities/7/olaf-recklessness.png",
+      "variables": [
+        {
+          "name": "AttackDamageRatio",
+          "value": [2.0, 2.0, 2.0]
+        },
+        {
+          "name": "AttackSpeedRatio",
+          "value": [0.35, 0.5, 0.75]
+        },
+        {
+          "name": "BuffDuration",
+          "value": [6.0, 6.0, 6.0]
+        },
+        {
+          "name": "HealthPercentThreshold",
+          "value": [50.0, 50.0, 50.0]
+        },
+        { "name": "StackingAD", "value": [5.0, 5.0, 5.0] }
+      ]
+    },
+    "cost": 3,
+    "name": "Olaf",
+    "icon":"https://cdn1.dotesports.com/wp-content/uploads/2022/06/19134759/TFT-Olaf.jpg",
+    "stats": {
+      "armor": 50.0,
+      "attackSpeed": 0.7,
+      "critChance": 0.25,
+      "critMultiplier": 1.3,
+      "damage": 55.0,
+      "hp": 800.0,
+      "initialMana": 50.0,
+      "magicResist": 50.0,
+      "mana": 100,
+      "range": 1.0
+    },
+    "traits": ["Scalescorn", "Bruiser", "Warrior"]
+  },
+  {
+    "ability": {
+      "desc": "Ornn summons an elemental that charges towards Ornn through the farthest enemy, dealing magic damage to enemies hit and slowing their Attack Speed by 50% for 2 seconds. When the elemental reaches Ornn, he redirects it towards another distant enemy, dealing magic damage to enemies hit and stunning them.",
+      "name": "Stampede",
+      "abilicon":"https://rerollcdn.com/abilities/7/ornn-stampede.png",
+      "variables": [
+        {
+          "name": "Damage",
+          "value": [150.0, 250.0, 1000.0]
+        },
+        {
+          "name": "StunDuration",
+          "value": [1.25, 1.75, 8.0]
+        },
+        { "name": "SlowDuration", "value": [2.0, 2.0, 2.0] }
+      ]
+    },
+    "cost": 4,
+    "name": "Ornn",
+    "icon":"https://cdn.mobalytics.gg/assets/tft/images/champions/page-background/set7/ornn.jpg",
+    "stats": {
+      "armor": 60.0,
+      "attackSpeed": 0.6,
+      "critChance": 0.25,
+      "critMultiplier": 1.3,
+      "damage": 60.0,
+      "hp": 1000.0,
+      "initialMana": 80.0,
+      "magicResist": 60.0,
+      "mana": 180.0,
+      "range": 1.0
+    },
+    "traits": ["Tempest", "Bruiser", "Legend"]
+  },
+  {
+    "ability": {
+      "desc": "Pyke dives toward the lowest Health enemy and slashes in an X, dealing magic damage to his target and magic damage to other enemies struck. Enemies hit suffer 50% reduced healing for 8 seconds. If Pyke hits an enemy at or below % Health he executes them and immediately recasts Death From Below.",
+      "name": "Death From Below",
+      "abilicon":"https://rerollcdn.com/abilities/7/pyke-death-from-below.png",
+      "variables": [
+        {
+          "name": "Damage",
+          "value": [325.0, 450.0, 5000.0]
+        },
+        {
+          "name": "SecondaryDamage",
+          "value": [150.0, 250.0, 5000.0]
+        },
+        {
+          "name": "HealthThreshold",
+          "value": [25.0, 33.0, 1.0]
+        },
+        {
+          "name": "HealingReduction",
+          "value": [50.0, 50.0, 50.0]
+        },
+        {
+          "name": "HealingReductionDuration",
+          "value": [8.0, 8.0, 8.0]
+        }
+      ]
+    },
+    "cost": 5,
+    "name": "Pyke",
+    "icon":"https://cdn.mobalytics.gg/assets/tft/images/champions/page-background/set7/pyke.jpg",
+    "stats": {
+      "armor": 40.0,
+      "attackSpeed": 1.0,
+      "critChance": 0.25,
+      "critMultiplier": 1.3,
+      "damage": 70.0,
+      "hp": 900.0,
+      "initialMana": 0,
+      "magicResist": 40.0,
+      "mana": 60.0,
+      "range": 1.0
+    },
+    "traits": ["Whispers", "Assassin"]
+  },
+  {
+    "ability": {
+      "desc": "Qiyana dashes to the best position to strike enemies with her blade, dealing magic damage in a short line and disarming enemies hit.",
+      "name": "Elemental Blade",
+      "abilicon":"https://rerollcdn.com/abilities/7/qiyana-elemental-blade.png",
+      "variables": [
+        {
+          "name": "BaseDamage",
+          "value": [200.0, 275.0, 375.0]
+        },
+        {
+          "name": "CCDuration",
+          "value": [1.5, 1.75, 2.0]
+        }
+      ]
+    },
+    "cost": 2,
+    "name": "Qiyana",
+    "icon":"https://cdn.mobalytics.gg/assets/tft/images/champions/thumbnail/set7/qiyana.jpg",
+    "stats": {
+      "armor": 30.0,
+      "attackSpeed": 0.75,
+      "critChance": 0.25,
+      "critMultiplier": 1.30,
+      "damage": 50.0,
+      "hp": 650.0,
+      "initialMana": 40.0,
+      "magicResist": 30.0,
+      "mana": 100,
+      "range": 1.0
+    },
+    "traits": ["Tempest", "Assassin"]
+  },
+  {
+    "ability": {
+      "desc": "Ryze hurls 1 arcane orb at his target, dealing a % of his maximum Mana. Each cast increases his maximum Mana by 20 and the number of orbs thrown by 1.",
+      "name": "Overload",
+      "abilicon":"https://rerollcdn.com/abilities/7/ryze-overload.png",
+      "variables": [
+        { "name": "NumOfOrbs", "value": [1.0, 1.0, 1.0] },
+        {
+          "name": "PercentMana",
+          "value": [180.0, 260.0, 420.0]
+        },
+        {
+          "name": "ManaIncrease",
+          "value": [20.0, 20.0, 20.0]
+        },
+        { "name": "OrbIncrease", "value": [1.0, 1.0, 1.0] },
+        {
+          "name": "GuildBonus",
+          "value": [10.0, 10.0, 10.0, 10.0]
+        },
+        {
+          "name": "PercentManaCalc",
+          "value": [2.0, 3.0, 5.0]
+        }
+      ]
+    },
+    "cost": 3,
+    "name": "Ryze",
+    "icon":"https://cdn.mobalytics.gg/assets/tft/images/champions/thumbnail/set7/ryze.jpg",
+    "stats": {
+      "armor": 25.0,
+      "attackSpeed": 0.65,
+      "critChance": 0.25,
+      "critMultiplier": 1.3,
+      "damage": 40.0,
+      "hp": 600.0,
+      "initialMana": 0,
+      "magicResist": 25.0,
+      "mana": 20.0,
+      "range": 4.0
+    },
+    "traits": ["Guild", "Mage"]
+  },
+  {
+    "ability": {
+      "desc": "Sejuani swings her mace wide, hitting all enemies in a cone for magic damage based on a % of her maxinum health. She quickly strikes again, repeating the damage on her target and the enemy directly behind it and stunning them.",
+      "name": "Warrior's Wrath",
+      "abilicon":"https://rerollcdn.com/abilities/7/sejuani-warriors-wrath.png",
+      "variables": [
+        {
+          "name": "FractionMaxHealth",
+          "value": [0.06, 0.06, 0.06]
+        },
+        {
+          "name": "StunDuration",
+          "value": [1.5, 1.75, 2.0]
+        },
+        {
+          "name": "GuildBonus",
+          "value": [100.0, 100.0, 100.0]
+        }
+      ]
+    },
+    "cost": 1,
+    "name": "Sejuani",
+    "icon":"https://cdn.mobalytics.gg/assets/tft/images/champions/thumbnail/set7/sejuani.jpg",
+    "stats": {
+      "armor": 40.0,
+      "attackSpeed": 0.55,
+      "critChance": 0.25,
+      "critMultiplier": 1.3,
+      "damage": 60.0,
+      "hp": 650.0,
+      "initialMana": 50.0,
+      "magicResist": 40.0,
+      "mana": 90.0,
+      "range": 1.0
+    },
+    "traits": ["Guild", "Cavalier"]
+  },
+  {
+    "ability": {
+      "desc": "Senna launches black mist toward the farthest enemy, striking the first enemy hit and dealing 200% physical damage on a small area and an additional magic damage to the target hit.",
+      "name": "Last Embrace",
+      "abilicon":"https://rerollcdn.com/abilities/7/senna-last-embrace.png",
+      "variables": [
+        {
+          "name": "BonusMagicDamage",
+          "value": [300.0, 500.0, 700.0]
+        },
+        {
+          "name": "PercentAttackDamage",
+          "value": [200.0, 200.0, 200.0]
+        }
+      ]
+    },
+    "cost": 1,
+    "name": "Senna",
+    "icon":"https://cdn.mobalytics.gg/assets/tft/images/champions/thumbnail/set7/senna.jpg",
+    "stats": {
+      "armor": 15.0,
+      "attackSpeed": 0.7,
+      "critChance": 0.25,
+      "critMultiplier": 1.3,
+      "damage": 50.0,
+      "hp": 500.0,
+      "initialMana": 30.0,
+      "magicResist": 15.0,
+      "mana": 90.0,
+      "range": 4.0
+    },
+    "traits": ["Ragewing", "Cannoneer"]
+  },
+  {
+    "ability": {
+      "desc": "For the next 4 seconds, Sett gains Armor and Magic Resist, and every other punch deals 160% bonus physical damage.",
+      "name": "Knuckle Down",
+      "abilicon":"https://rerollcdn.com/abilities/7/sett-knuckle-down.png",
+      "variables": [
+        {
+          "name": "BaseResistAmount",
+          "value": [50.0, 60.0, 80.0]
+        },
+        {
+          "name": "ADRatio",
+          "value": [1.70, 1.70, 1.70]
+        },
+        { "name": "Duration", "value": [4.0, 4.0, 4.0] }
+      ]
+    },
+    "cost": 1,
+    "name": "Sett",
+    "icon":"https://cdn.mobalytics.gg/assets/tft/images/champions/page-background/set7/sett.jpg",
+    "stats": {
+      "armor": 40.0,
+      "attackSpeed": 0.7,
+      "critChance": 0.25,
+      "critMultiplier": 1.3,
+      "damage": 65.0,
+      "hp": 650.0,
+      "initialMana": 30.0,
+      "magicResist": 40.0,
+      "mana": 60.0,
+      "range": 1.0
+    },
+    "traits": ["Ragewing", "Dragonmancer"]
+  },
+  {
+    "ability": {
+      "desc": "Shen creates a zone around himself, in which all nearby allies dodge Basic Attacks. While it's active, Shen gains Magic Resist.",
+      "name": "Flame's Refuge",
+      "abilicon":"https://rerollcdn.com/abilities/7/shen-flames-refuge.png",
+      "variables": [
+        {
+          "name": "ZoneDuration",
+          "value": [2.5, 3.0, 4.0]
+        },
+        {
+          "name": "MagicResist",
+          "value": [50.0, 75.0, 100.0]
+        }
+      ]
+    },
+    "cost": 2,
+    "name": "Shen",
+    "icon":"https://cdn.mobalytics.gg/assets/tft/images/champions/page-background/set7/shen.jpg",
+    "stats": {
+      "armor": 45.0,
+      "attackSpeed": 0.65,
+      "critChance": 0.25,
+      "critMultiplier": 1.3,
+      "damage": 60.0,
+      "hp": 800.0,
+      "initialMana": 60.0,
+      "magicResist": 45.0,
+      "mana": 105.0,
+      "range": 1.0
+    },
+    "traits": ["Ragewing", "Bruiser", "Warrior"]
+  },
+  {
+    "ability": {
+      "desc": "Shi Oh Yu enters Jade stance, gaining damage reduction, immunity to crowd control, and empowering her next 3 attacks with special effects that deal a % of her Attack Damage. Attack 1: Deals damage and knocks the target into the air for 1.25 second. Attack 2: Deals true damage. Attack 3: Ends the stance, dealing damage to all enemies in a line and knocking them up for 1.25 seconds.",
+      "name": "Jade Form",
+      "abilicon":"https://rerollcdn.com/abilities/7/shi-oh-yu-jade-form.png",
+      "variables": [
+        {
+          "name": "DamageReduction",
+          "value": [0.20, 0.25, 0.5]
+        },
+        { "name": "Stun", "value": [1.25, 1.25, 1.25] },
+        {
+          "name": "PercentAttackDamage",
+          "value": [265.0, 290.0, 1000.0]
+        }
+      ]
+    },
+    "cost": 4,
+    "name": "Shi Oh Yu",
+    "icon":"https://cdn.mobalytics.gg/assets/tft/images/champions/thumbnail/set7/shi-oh-yu.jpg",
+    "stats": {
+      "armor": 60.0,
+      "attackSpeed": 0.75,
+      "critChance": 0.25,
+      "critMultiplier": 1.30,
+      "damage": 90.0,
+      "hp": 900.0,
+      "initialMana": 30.0,
+      "magicResist": 60.0,
+      "mana": 90.0,
+      "range": 1.0
+    },
+    "traits": ["Jade", "Mystic", "Dragon"]
+  },
 ]

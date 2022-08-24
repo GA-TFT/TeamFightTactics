@@ -1,4 +1,4 @@
-from multiprocessing.dummy import Array
+from django.urls import reverse
 from django.db import models
 
 # Create your models here.
@@ -19,3 +19,8 @@ class Champion(models.Model):
     range = models.IntegerField()
     traits = models.CharField(max_length=100)
 
+    def __str__(self):
+        return f'{self.name} ({self.id})'
+
+    def get_absolute_url(self):
+        return reverse('detail', kwargs={'cat_id': self.id})

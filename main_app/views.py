@@ -36,6 +36,7 @@ def traits(request):
 # def champions_detail(request, champion_id):
 #   champion = Champion.objects.get(id=champion_id)
 #   return render(request, 'champions/detail.html')
+<<<<<<< HEAD
 
 # Class-Based View (CBV)
 class ChampionCreate(CreateView):
@@ -55,6 +56,8 @@ class ChampionDelete(DeleteView):
 # champion = [
 #     Champions("Aatrox", "https://cdn.mobalytics.gg/assets/tft/images/champions/page-background/set7/aatrox.jpg", "Shimmerscale, Warrior", "1"),
 # ]
+=======
+>>>>>>> 930cdfc (rebase)
 
 # Class-Based View (CBV)
 class ChampionCreate(CreateView):

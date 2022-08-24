@@ -2,8 +2,12 @@ from django.shortcuts import render
 from django.views import View
 from django.http import HttpResponse
 from django.views.generic.base import TemplateView
+<<<<<<< HEAD
 from .models import Champion
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
+=======
+import json
+>>>>>>> f79beff (rebase)
 
 import json
 

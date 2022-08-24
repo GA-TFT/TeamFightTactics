@@ -19,18 +19,12 @@ class Champion(models.Model):
     range = models.IntegerField()
     traits = models.CharField(max_length=100)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 188ec36 (CRUD)
+
     def __str__(self):
         return f'{self.name} ({self.id})'
 
     def get_absolute_url(self):
-<<<<<<< HEAD
+
         return reverse('detail', kwargs={'cat_id': self.id})
-=======
->>>>>>> f79beff (rebase)
-=======
+
         return reverse('detail', kwargs={'cat_id': self.id})
->>>>>>> 188ec36 (CRUD)

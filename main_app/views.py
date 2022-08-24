@@ -4,12 +4,6 @@ from django.http import HttpResponse
 from django.views.generic.base import TemplateView
 from .models import Champion
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
-<<<<<<< HEAD
-=======
-
-import json
->>>>>>> 188ec36 (CRUD)
-
 
 def home(request):
   return render(request, 'home.html')
@@ -57,12 +51,6 @@ class ChampionDelete(DeleteView):
   model = Champion
   success_url = '/champions/'
 
-<<<<<<< HEAD
-=======
-# champion = [
-#     Champions("Aatrox", "https://cdn.mobalytics.gg/assets/tft/images/champions/page-background/set7/aatrox.jpg", "Shimmerscale, Warrior", "1"),
-# ]
-
 # Class-Based View (CBV)
 class ChampionCreate(CreateView):
   model = Champion
@@ -76,4 +64,3 @@ class ChampionDelete(DeleteView):
   model = Champion
   success_url = '/champions/'
 
->>>>>>> 188ec36 (CRUD)

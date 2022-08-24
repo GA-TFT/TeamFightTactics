@@ -25,18 +25,6 @@ def traits(request):
 #   champion = Champion.objects.get(id=champion_id)
 #   return render(request, 'champions/detail.html')
 
-# Class-Based View (CBV)
-class ChampionCreate(CreateView):
-  model = Champion
-  fields = '__all__'
-
-class ChampionUpdate(UpdateView):
-  model = Champion
-  fields = ['ability', 'abilname', 'abilicon', 'cost', 'name', 'icon', 'armor', 'attack_speed', 'damage', 'hp', 'initialmana', 'magic_resist', 'mana', 'range', 'traits']
-
-class ChampionDelete(DeleteView):
-  model = Champion
-  success_url = '/champions/'
 
 # Class-Based View (CBV)
 class ChampionCreate(CreateView):
@@ -51,16 +39,4 @@ class ChampionDelete(DeleteView):
   model = Champion
   success_url = '/champions/'
 
-# Class-Based View (CBV)
-class ChampionCreate(CreateView):
-  model = Champion
-  fields = '__all__'
-
-class ChampionUpdate(UpdateView):
-  model = Champion
-  fields = ['ability', 'abilname', 'abilicon', 'cost', 'name', 'icon', 'armor', 'attack_speed', 'damage', 'hp', 'initialmana', 'magic_resist', 'mana', 'range', 'traits']
-
-class ChampionDelete(DeleteView):
-  model = Champion
-  success_url = '/champions/'
 

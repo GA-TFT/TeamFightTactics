@@ -3,8 +3,6 @@ from . import views
 
 app_name = 'main_app'
 urlpatterns = [
-
-
     path('', views.home, name='home'),
     path('champions/', views.champions, name='champions'),
     # path('champions/<int:champions>/', views.champions_detail, name='detail'),
@@ -13,5 +11,4 @@ urlpatterns = [
     path('champions/<int:pk>/delete/', views.ChampionDelete.as_view(), name='champions_delete'),
     path('augments/', views.augments, name='augments'),
     path('traits/', views.traits, name='traits_list'),
-
 ]

@@ -5,6 +5,7 @@ from django.views.generic.base import TemplateView
 from .models import Champion
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 
+
 def home(request):
   return render(request, 'home.html')
 

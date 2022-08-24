@@ -1,8 +1,20 @@
 /* Champions CSS */
-
+div {
+    display: block;
+}
 * {
     box-sizing: border-box;
     
+}
+
+.the-grid{
+    position: relative;
+    padding: 0pc 1.6rem 3.2rem;
+    padding-top: 0px;
+    padding-right: 1.6rem;
+    padding-bottom: 3.2rem;
+    padding-left: 1.6rem;
+    min-height: var(--app-content-min-height);
 }
 
 .champ-grid{
@@ -18,16 +30,20 @@
     column-gap: 1.6rem;
 }
 
-.aatrox{
+.champ-img{
     position: relative;
     display: flex;
     flex-direction: column;
     -webkit-box-pack: end;
     justify-content: flex-end;
+    font-size: 1.6rem;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     border: 1px;
     border-radius: 4px;
     height: 17.5rem;
+    overflow: hidden;
+    width: 432px;
+    height: 350px;
 }

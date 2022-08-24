@@ -7,39 +7,25 @@ from django.views.generic.edit import CreateView, UpdateView, DeleteView
 
 import json
 
-# Create your views here.
+def home(request):
+  return render(request, 'home.html')
 
-class Home(TemplateView):
-    template_name = 'home.html'
+def champions(request):
+  return render(request, 'champions.html')
 
-class Champions(TemplateView):
-    template_name = 'champions.html'
+def augments(request):
+  return render(request, 'augments.html')
 
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        context["champions"] = Champions
-        return context
+def traits(request):
+  return render(request, 'traits.html')
 
-class Augments(TemplateView):
-    template_name = 'augments.html'
+# def champions_index(request):
+#   champions = Champion.objects.all()
+#   return render(request, 'champions/index.html', {'champions': champions})
 
-class TraitsList(TemplateView):
-    template_name = 'traits.html'
-
-# class Champions(View):
-#     def get(self, request):
-#         return Champions("Champions Page")
-
-# class Champions:
-#     def __init__(self, name, image, traits, cost):
-#         self.name = name
-#         self.image = image
-#         self.traits = traits
-#         self.cost = cost
-
-# champion = [
-#     Champions("Aatrox", "https://cdn.mobalytics.gg/assets/tft/images/champions/page-background/set7/aatrox.jpg", "Shimmerscale, Warrior", "1"),
-# ]
+# def champions_detail(request, champion_id):
+#   champion = Champion.objects.get(id=champion_id)
+#   return render(request, 'champions/detail.html')
 
 # Class-Based View (CBV)
 class ChampionCreate(CreateView):

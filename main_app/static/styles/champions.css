@@ -1,0 +1,33 @@
+/* Champions CSS */
+
+* {
+    box-sizing: border-box;
+    
+}
+
+.champ-grid{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(13.6rem, 1fr));
+    padding: 0.8rem;
+    padding-top: 0.8rem;
+    padding-right: 0px;
+    padding-bottom: 0.8rem;
+    padding-left: 0px;
+    gap: 1.6rem;
+    row-gap: 1.6rem;
+    column-gap: 1.6rem;
+}
+
+.aatrox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 1px;
+    border-radius: 4px;
+    height: 17.5rem;
+}

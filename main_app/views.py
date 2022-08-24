@@ -24,4 +24,15 @@ class TraitsList(TemplateView):
 
 # class Champions(View):
 #     def get(self, request):
-#         return HttpResponse("Champions Page")
+#         return Champions("Champions Page")
+
+# class Champions:
+#     def __init__(self, name, image, traits, cost):
+#         self.name = name
+#         self.image = image
+#         self.traits = traits
+#         self.cost = cost
+
+# champion = [
+#     Champions("Aatrox", "https://cdn.mobalytics.gg/assets/tft/images/champions/page-background/set7/aatrox.jpg", "Shimmerscale, Warrior", "1"),
+# ]

@@ -1,7 +1,117 @@
 
-    {% extends 'base.html' %}
-    {% block content %}
-    <section class="section-main">
-        <h1>TFM CHAMPIONS</h1>
-    </section>
-    {% endblock %}
+            {% load static %}
+            <!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8" />
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+                    <link rel="stylesheet" href="{% static 'styles/champions.css' %}" />
+                    <link rel="stylesheet" href="{% static 'styles/main.css' %}" />
+                    <script src="{% static 'scripts/main.js' %}" defer></script>
+                    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+                    <title>Team Fight Meta - {% block title %}{% endblock %}</title> 
+                </head>
+                <body >
+                    <header>
+                        <div class='menu'>
+                            <img class='logo' href='/' src="https://i.imgur.com/SJYQFET.png">
+                            <div class="btn">
+                                <i class="fas fa-times close-btn"></i>
+                            </div>
+                            <a class="navbar-item" href="/">Home</a>
+                            <a class="navbar-item" href="/champions">Champions</a>
+                            <a class="navbar-item" href="/augments">Augments</a>
+                            <a class="navbar-item" href="/traits">Traits</a>
+                        </div>
+                        <div class="btn">
+                            <i class="fas fa-bars menu-btn"></i>
+                        </div>
+                        <div class="champ-grid">
+                            <div class="aatrox" style="background-image: url(https://lolskinshop.com/wp-content/uploads/2019/04/splash-art-blood-moon-aatrox-prestige.jpg);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://cdn1.dotesports.com/wp-content/uploads/2022/05/21141259/TFT-Anivia.jpg);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://cdn1.dotesports.com/wp-content/uploads/2022/05/21141626/TFT-Ao-Shin.jpg);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://i.redd.it/is8khj2rkcn51.jpg);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://d23gn3985hkc32.cloudfront.net/wp-content/uploads/2020/12/347612-AAC1-1536x634.jpg);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/1/1a/Skin_Splash_Classic_Bard.jpg/revision/latest?cb=20191212195820);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/5/57/Skin_Splash_Dragonslayer_Braum.jpg/revision/latest?cb=20191209211903);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/9/94/Skin_Splash_Dragonwing_Corki.jpg/revision/latest?cb=20191212184831);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://cdn1.dotesports.com/wp-content/uploads/2022/05/21141911/TFT-Daeja.jpg);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/4/47/Skin_Splash_Dragonslayer_Diana.jpg/revision/latest?cb=20191217212848);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://lolskinshop.com/wp-content/uploads/2019/04/splash-art-blood-moon-aatrox-prestige.jpg);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://lolskinshop.com/wp-content/uploads/2019/04/splash-art-blood-moon-aatrox-prestige.jpg);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://lolskinshop.com/wp-content/uploads/2019/04/splash-art-blood-moon-aatrox-prestige.jpg);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://lolskinshop.com/wp-content/uploads/2019/04/splash-art-blood-moon-aatrox-prestige.jpg);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://lolskinshop.com/wp-content/uploads/2019/04/splash-art-blood-moon-aatrox-prestige.jpg);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://lolskinshop.com/wp-content/uploads/2019/04/splash-art-blood-moon-aatrox-prestige.jpg);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://lolskinshop.com/wp-content/uploads/2019/04/splash-art-blood-moon-aatrox-prestige.jpg);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://lolskinshop.com/wp-content/uploads/2019/04/splash-art-blood-moon-aatrox-prestige.jpg);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://lolskinshop.com/wp-content/uploads/2019/04/splash-art-blood-moon-aatrox-prestige.jpg);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://lolskinshop.com/wp-content/uploads/2019/04/splash-art-blood-moon-aatrox-prestige.jpg);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://lolskinshop.com/wp-content/uploads/2019/04/splash-art-blood-moon-aatrox-prestige.jpg);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://lolskinshop.com/wp-content/uploads/2019/04/splash-art-blood-moon-aatrox-prestige.jpg);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://lolskinshop.com/wp-content/uploads/2019/04/splash-art-blood-moon-aatrox-prestige.jpg);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://lolskinshop.com/wp-content/uploads/2019/04/splash-art-blood-moon-aatrox-prestige.jpg);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://lolskinshop.com/wp-content/uploads/2019/04/splash-art-blood-moon-aatrox-prestige.jpg);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://lolskinshop.com/wp-content/uploads/2019/04/splash-art-blood-moon-aatrox-prestige.jpg);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://lolskinshop.com/wp-content/uploads/2019/04/splash-art-blood-moon-aatrox-prestige.jpg);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://lolskinshop.com/wp-content/uploads/2019/04/splash-art-blood-moon-aatrox-prestige.jpg);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://lolskinshop.com/wp-content/uploads/2019/04/splash-art-blood-moon-aatrox-prestige.jpg);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://lolskinshop.com/wp-content/uploads/2019/04/splash-art-blood-moon-aatrox-prestige.jpg);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://lolskinshop.com/wp-content/uploads/2019/04/splash-art-blood-moon-aatrox-prestige.jpg);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://lolskinshop.com/wp-content/uploads/2019/04/splash-art-blood-moon-aatrox-prestige.jpg);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://lolskinshop.com/wp-content/uploads/2019/04/splash-art-blood-moon-aatrox-prestige.jpg);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://lolskinshop.com/wp-content/uploads/2019/04/splash-art-blood-moon-aatrox-prestige.jpg);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://lolskinshop.com/wp-content/uploads/2019/04/splash-art-blood-moon-aatrox-prestige.jpg);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://lolskinshop.com/wp-content/uploads/2019/04/splash-art-blood-moon-aatrox-prestige.jpg);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://lolskinshop.com/wp-content/uploads/2019/04/splash-art-blood-moon-aatrox-prestige.jpg);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://lolskinshop.com/wp-content/uploads/2019/04/splash-art-blood-moon-aatrox-prestige.jpg);">
+                                </div>
+                            <div class="aatrox" style="background-image: url(https://lolskinshop.com/wp-content/uploads/2019/04/splash-art-blood-moon-aatrox-prestige.jpg);">
+                                </div>
+                                    </div>
+                    </header>
+                    <section class="section-main">
+                    </section>
+                    {% block content %}
+                    {% endblock %}
+            </body>
+            </html>

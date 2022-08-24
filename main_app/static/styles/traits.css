@@ -82,3 +82,25 @@
     display: inline-block;
     vertical-align: middle;
 }
+
+.abil-1{
+    display: flex;
+}
+.abil-info-1{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2.5rem;
+    margin-right: 0.1rem;
+    font-size: 1.5rem;
+}
+
+.abil-info-2{
+    letter-spacing: 0.025rem;
+    margin-top: 0.3rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}

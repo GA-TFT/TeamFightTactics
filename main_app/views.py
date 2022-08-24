@@ -2,6 +2,9 @@ from django.shortcuts import render
 from django.views import View
 from django.http import HttpResponse
 from django.views.generic.base import TemplateView
+from .models import Champion
+from django.views.generic.edit import CreateView, UpdateView, DeleteView
+
 import json
 
 # Create your views here.
@@ -37,3 +40,17 @@ class TraitsList(TemplateView):
 # champion = [
 #     Champions("Aatrox", "https://cdn.mobalytics.gg/assets/tft/images/champions/page-background/set7/aatrox.jpg", "Shimmerscale, Warrior", "1"),
 # ]
+
+# Class-Based View (CBV)
+class ChampionCreate(CreateView):
+  model = Champion
+  fields = '__all__'
+
+class ChampionUpdate(UpdateView):
+  model = Champion
+  fields = ['ability', 'abilname', 'abilicon', 'cost', 'name', 'icon', 'armor', 'attack_speed', 'damage', 'hp', 'initialmana', 'magic_resist', 'mana', 'range', 'traits']
+
+class ChampionDelete(DeleteView):
+  model = Champion
+  success_url = '/champions/'
+

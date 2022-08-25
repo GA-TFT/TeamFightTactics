@@ -26,7 +26,7 @@ class Champion(models.Model):
         return reverse('detail', kwargs={'champion_id': self.id})
 
     class Meta:
-        ordering = ['-name']
+        ordering = ['name']
 
 class Trait(models.Model):
     name = models.CharField(max_length=500)
@@ -40,4 +40,4 @@ class Trait(models.Model):
         return reverse('detail', kwargs={'trait_id': self.id})
 
     class Meta:
-        ordering = ['-name']
+        ordering = ['name']

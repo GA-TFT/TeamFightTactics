@@ -16,7 +16,8 @@ def augments(request):
   return render(request, 'augments.html')
 
 def traits(request):
-  return render(request, 'traits.html')
+  traits = Trait.objects.all()
+  return render(request, 'traits.html', {'traits': traits})
 
 # def champions_index(request):
 #   champions = Champion.objects.all()

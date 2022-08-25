@@ -30,7 +30,7 @@ class Champion(models.Model):
 
 class Trait(models.Model):
     name = models.CharField(max_length=500)
-    disc = models.CharField("Description", max_length=1000)
+    disc = models.CharField("Description", max_length=900)
     icon = models.CharField(max_length=100)
 
     def __str__(self):

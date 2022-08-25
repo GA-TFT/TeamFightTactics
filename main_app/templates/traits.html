@@ -1,7 +1,17 @@
 {% extends 'base.html' %}
-
 {% block content %}
-<h1>About the Cat Collector</h1>
-<hr />
-<p>Hire the Cat Collector!</p>
+
+<h1>Cat List</h1>
+
+{% for trait in traits %}
+  <div class="card">
+      <div class="card-content">
+        <span class="card-title">{{ trait.name }}</span>
+        <p>Breed: {{ trait.disc }}</p>
+        <p>Description: {{ trait.icon }}</p>
+      </div>
+    </a>
+  </div>
+{% endfor %}
+
 {% endblock %}

@@ -1,17 +1,7 @@
 {% extends 'base.html' %}
+
 {% block content %}
-
-<h1>Traits List</h1>
-
-{% for trait in traits %}
-  <div class="card">
-    <a href="{% url 'detail' trait.id %}">
-      <div class="card-content">
-        <span class="card-title">{{ trait.name }}</span>
-        <p>Description: {{ trait.disc }}</p>
-      </div>
-    </a>
-  </div>
-{% endfor %}
-
+<h1>About the Cat Collector</h1>
+<hr />
+<p>Hire the Cat Collector!</p>
 {% endblock %}

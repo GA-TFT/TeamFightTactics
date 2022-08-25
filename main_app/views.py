@@ -8,7 +8,7 @@ from django.views.generic.edit import CreateView, UpdateView, DeleteView
 def home(request):
   return render(request, 'home.html')
 
-def champions(request):
+def champions(request,):
   return render(request, 'champions.html')
 
 def augments(request):
@@ -38,5 +38,4 @@ class ChampionUpdate(UpdateView):
 class ChampionDelete(DeleteView):
   model = Champion
   success_url = '/champions/'
-
 

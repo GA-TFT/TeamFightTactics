@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="{% static 'styles/main.css' %}" />
         <script src="{% static 'scripts/main.js' %}" defer></script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-        <title>Team Fight Meta - {% block title %}{% endblock %}</title> 
+        <title>Team Fight Meta</title> 
     </head>
     <body >
         <header>
@@ -18,10 +18,10 @@
                 <div class="btn">
                     <i class="fas fa-times close-btn"></i>
                 </div>
-                <a class="navbar-item" href="/">Home</a>
-                <a class="navbar-item" href="/champions">Champions</a>
-                <a class="navbar-item" href="/augments">Augments</a>
-                <a class="navbar-item" href="/traits">Traits</a>
+                <li class="navbar-item"><a href="{% url 'home' %}"></a>Home</a></li>
+                <li class="navbar-item"><a href="{% url 'champions' %}">Champions</a></li>
+                <li class="navbar-item"><a href="{% url 'augments' %}">Augments</a></li>
+                <li class="navbar-item"><a href="{% url 'traits' %}">Traits</a></li>
             </div>
             <div class="btn">
                 <i class="fas fa-bars menu-btn"></i>

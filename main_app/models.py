@@ -3,7 +3,7 @@ from django.db import models
 
 # Create your models here.
 class Champion(models.Model):
-    ability = models.CharField(max_length=1000)
+    ability = models.CharField(max_length=500)
     abilname = models.CharField(max_length=100)
     abilicon = models.CharField(max_length=100)
     cost = models.IntegerField()

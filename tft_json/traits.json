@@ -1,0 +1,142 @@
+[
+  {
+    "name":"Assassin",
+    "disc":"Innate: Leap to the enemy backline when combat starts. Assassins' Abilities can critically strike and they gain bonus Critical Strike Chance and bonus Critical Strike Damage.",
+    "icon":"https://rerollcdn.com/icons/assassin.png"
+  },
+  {
+    "name":"Astral",
+    "disc":"Every 5th Shop has increased odds to show Astral champions, and also grants an Astral orb. Your team gains bonus Ability Power.",
+    "icon":"https://rerollcdn.com/icons/astral.png"
+  },
+  {
+    "name":"Bard",
+    "disc":"Allies that survive player combat have a 2% chance to create a Doot. Bard always creates a Doot when dancing. Each Doot you collect increases your Shop odds for higher-tier champions by 1%.",
+    "icon":"https://rerollcdn.com/icons/bard.png"
+  },
+  {
+    "name":"Bruiser",
+    "disc":"Your team gains bonus maximum Health. Bruisers gain double this bonus.",
+    "icon":"https://rerollcdn.com/icons/bruiser.pngg"
+  },
+  {
+    "name":"Cannoneer",
+    "disc":"Every 5th attack fires a cannon shot that explodes for physical damage around the target.",
+    "icon":"https://rerollcdn.com/icons/cannoneer.png"
+  },
+  {
+    "name":"Cavalier",
+    "disc":"Innate: Charge quickly towards their target whenever they move. Cavaliers gain Armor and Magic Resist. At the start of combat and after each charge, gain double the amount for 4 seconds.",
+    "icon":"https://rerollcdn.com/icons/cavalier.png"
+  },
+  {
+    "name":"Dragon",
+    "disc":"Dragons provide +3 to their origin trait, but require 2 team slots. They also gain 700 bonus Health. This trait is active with exacly 1 Dragon champion",
+    "icon":"https://rerollcdn.com/icons/dragon.png"
+  },
+  {
+    "name":"Dragonmancer",
+    "disc":"Use the Dragonmancer Blessing item to choose a Hero. The Hero gains massively increased Health and Ability Power, which increases by 20% per star level of your Dragonmancers.",
+    "icon":"https://rerollcdn.com/icons/dragonmancer.png"
+  },
+  {
+    "name":"Evoker",
+    "disc":"Evokers gain Mana whenever an ally or enemy casts an Ability.",
+    "icon":"https://rerollcdn.com/icons/evoker.png"
+  },
+  {
+    "name":"Guardian",
+    "disc":"Once per combat at 50% Health, Guardians shield themselves and their closest ally for a percent of their maximum Health. Shields stack!",
+    "icon":"https://rerollcdn.com/icons/guardian.png"
+  },
+  {
+    "name":"Guild",
+    "disc":"Grant a unique bonus to your team; Guild members gain double the amount. Increases for each Guild member in play! Sejuani: +100 Health Twitch: +10% Attack Speed Ryze: +10 Ability Power Talon: +8 Attack Damage Bard: +2 Mana per attack Emblem: +3% Omnivamp (healing for a percentage of damage dealt)",
+    "icon":"https://rerollcdn.com/icons/guild.png"
+  },
+  {
+    "name":"Jade",
+    "disc":"Summon movable Jade Statues that grow in power. Each combat, allies adjacent to a statue gain Attack Speed and maximum Health healing every 2 seconds. When a statue is destroyed, it deals 33% of its Health as magic damage to nearby enemies.",
+    "icon":"https://rerollcdn.com/icons/jade.png"
+  },
+  {
+    "name":"Legend",
+    "disc":"Each combat: An adjacent ally sacrifices their life to the Legend, which gains 100% of their Health, Armor, and Magic Resistance, plus 30% of their Ability Power.",
+    "icon":"https://rerollcdn.com/icons/legend.png"
+  },
+  {
+    "name":"Mage",
+    "disc":"Mages cast twice and have modified total Ability Power.",
+    "icon":"https://rerollcdn.com/icons/mage.png"
+  },
+  {
+    "name":"Mirage",
+    "disc":"Mirage champions gain a different Trait bonus from game to game.Electric Overload: When attacking or being hit by an attack, gain a chance to deal 8% of their maximum Health as magic damage to adjacent enemies. Warlord's Honor: After winning any combat, gain bonus Health and Ability Power. Increases by 10% per win, stacks up to 5 times!Pirate's Greed: Gain a chest of loot after each player combat. Dawnbringer's Determination: Once per combat, rapidly heal at 50% Health. Executioner's Edge: Always critically strike low Heath targets with Attacks and Abilities. Gain bonus Critial Strike Damage. Spellsword's Enchantment: Each player combat, gain Ability Power per attack. Duelist's Dexterity: Innate: Mirage units move faster. Attacks grant bonus Attack Speed, up to 10 stacks",
+    "icon":"https://rerollcdn.com/icons/mirage.png"
+  },
+  {
+    "name":"Mystic",
+    "disc":"Your team gains Magic Resist.",
+    "icon":"https://rerollcdn.com/icons/mystic.png"
+  },
+  {
+    "name":"Ragewing",
+    "disc":" Innate: Convert Mana to Rage; attacks generate 15 Rage. After casting an Ability, enrage for 4 seconds: +25% Attack Speed but can't gain Rage. Gain bonus stats when enraged",
+    "icon":"https://rerollcdn.com/icons/ragewing.png"
+  },
+  {
+    "name":"Revel",
+    "disc":"After dealing damage with an Ability, launch a firecracker that deals magic damage to a random enemy.",
+    "icon":"https://rerollcdn.com/icons/revel.png"
+  },
+  {
+    "name":"Scalescorn",
+    "disc":"If you don't have a Dragon on your team, Scalescorn champions deal bonus magic damage and take 25% reduced damage from enemies with more than 2200 Health..",
+    "icon":"https://rerollcdn.com/icons/scalescorn.png"
+  },
+  {
+    "name":"Shapeshifter",
+    "disc":"Transforming grants bonus maximum Health.",
+    "icon":"https://rerollcdn.com/icons/shapeshifter.png"
+  },
+  {
+    "name":"Shimmerscale",
+    "disc":"Grant exclusive random Shimmerscale items.",
+    "icon":"https://rerollcdn.com/icons/shimmerscale.png"
+  },
+  {
+    "name":"Spell-Thief",
+    "disc":"Zoe nabs a new Ability after each cast and at the start of every round.",
+    "icon":"https://rerollcdn.com/icons/spell-thief.png"
+  },
+  {
+    "name":"Starcaller",
+    "disc":"The first Starcaller to cast their Ability during player combat heals you for (2/3/75), depending on their star level. Excess healing disintegrates an enemy champion.",
+    "icon":"https://rerollcdn.com/icons/starcaller.png"
+  },
+  {
+    "name":"Swiftshot",
+    "disc":"Innate: gain 2 hex Attack Range. Swhiftshots gain Attack Speed for each hex between themselves and their target.",
+    "icon":"https://rerollcdn.com/icons/swiftshot.png"
+  },
+  {
+    "name":"Tempest",
+    "disc":"After 8 seconds, lightning strikes that battlefield. Enemies are stunned for 1 second and take a percent of their maximum Health as true damage. Tempest champions gain Attack Speed.",
+    "icon":"https://rerollcdn.com/icons/tempest.png"
+  },
+  {
+    "name":"Trainer",
+    "disc":" Every round, each Trainer feeds 1 Snax per star level to Nomsy, adding Health and Ability Power. Nomsy's star level increases every 25 Snax!",
+    "icon":"https://rerollcdn.com/icons/trainer.png"
+  },
+  {
+    "name":"Warrior",
+    "disc":"Warrior attacks have a 50% chance to increase the damage of their next attack.",
+    "icon":"https://rerollcdn.com/icons/warrior.png"
+  },
+  {
+    "name":"Whispers",
+    "disc":"Whispers damage shrinks enemies, reducing their Armor and Magic Resist by 40% for 6 seconds.When they damage a shrunken enemy, Whispers gain stacking bonuses:",
+    "icon":"https://rerollcdn.com/icons/whispers.png"
+  }
+]

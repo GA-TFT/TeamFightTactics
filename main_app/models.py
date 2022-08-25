@@ -27,3 +27,17 @@ class Champion(models.Model):
 
     class Meta:
         ordering = ['-name']
+
+class Trait(models.Model):
+    name = models.CharField(max_length=500)
+    disc = models.CharField("Description", max_length=100)
+    icon = models.CharField(max_length=100)
+
+    def __str__(self):
+        return f'{self.name} ({self.id})'
+
+    def get_absolute_url(self):
+        return reverse('detail', kwargs={'trait_id': self.id})
+
+    class Meta:
+        ordering = ['-name']

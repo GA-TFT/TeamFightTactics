@@ -4,6 +4,7 @@ from django.http import HttpResponse
 from django.views.generic.base import TemplateView
 from .models import Champion
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
+import json
 
 def home(request):
   return render(request, 'home.html')
@@ -24,7 +25,6 @@ def traits(request):
 # def champions_detail(request, champion_id):
 #   champion = Champion.objects.get(id=champion_id)
 #   return render(request, 'champions/detail.html')
-
 
 # Class-Based View (CBV)
 class ChampionCreate(CreateView):

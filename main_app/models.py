@@ -41,3 +41,18 @@ class Trait(models.Model):
 
     class Meta:
         ordering = ['name']
+
+class Augment(models.Model):
+    name = models.CharField(max_length=500)
+    teir = models.IntegerField()
+    desc = models.CharField("Description", max_length=900)
+    icon = models.CharField(max_length=100)
+
+    def __str__(self):
+        return f'{self.name} ({self.id})'
+
+    def get_absolute_url(self):
+        return reverse('detail', kwargs={'augment_id': self.id})
+
+    class Meta:
+        ordering = ['name']

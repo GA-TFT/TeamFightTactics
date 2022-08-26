@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.views import View
 from django.http import HttpResponse
 from django.views.generic.base import TemplateView
-from .models import Champion, Trait
+from .models import Augment, Champion, Trait
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 import json
 
@@ -51,4 +51,16 @@ class TraitUpdate(UpdateView):
 class TraitDelete(DeleteView):
   model = Trait
   success_url = '/traits/'
+
+class AugmentCreate(CreateView):
+  model = Augment
+  fields = '__all__'
+
+class AugmentUpdate(UpdateView):
+  model = Augment
+  fields = ['name', 'teir', 'desc', 'icon']
+
+class AugmentDelete(DeleteView):
+  model = Augment
+  success_url = '/augments/'
 

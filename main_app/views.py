@@ -10,7 +10,8 @@ def home(request):
   return render(request, 'home.html')
 
 def champions(request):
-  return render(request, 'champions.html')
+  champions = Champion.objects.all()
+  return render(request, 'champions.html', {'champions': champions})
 
 def augments(request):
   return render(request, 'augments.html')
@@ -40,6 +41,7 @@ class ChampionDelete(DeleteView):
   model = Champion
   success_url = '/champions/'
 
+
 class TraitCreate(CreateView):
   model = Trait
   fields = '__all__'
@@ -63,4 +65,5 @@ class AugmentUpdate(UpdateView):
 class AugmentDelete(DeleteView):
   model = Augment
   success_url = '/augments/'
+
 

@@ -9,7 +9,7 @@ import json
 def home(request):
   return render(request, 'home.html')
 
-def champions(request):
+def champions(request,):
   return render(request, 'champions.html')
 
 def augments(request):
@@ -40,6 +40,7 @@ class ChampionDelete(DeleteView):
   model = Champion
   success_url = '/champions/'
 
+<<<<<<< HEAD
 class TraitCreate(CreateView):
   model = Trait
   fields = '__all__'
@@ -64,3 +65,5 @@ class AugmentDelete(DeleteView):
   model = Augment
   success_url = '/augments/'
 
+=======
+>>>>>>> 24aacbb (im crying)

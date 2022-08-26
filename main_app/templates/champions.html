@@ -1,15 +1,23 @@
-{% extends 'base.html' %} 
+{% extends 'base.html' %}
+
 {% block content %}
 
-<h1>All Champions</h1>
-
-{% for champion in Champions %}
-<div class="card">
-        <div class="card-content">
-            <span class="card-title">{{ champion.name }}</span>
-            <p>Ability: {{ champion.ability }}</p>
-        </div>
-    </a>
+<h1 class="title">All Champions</h1>
+<div class="gallery">
+  {% for champion in champions %}
+  <a href="">
+    <div class="card" >
+      <div class="card-image">
+        <figure class="image is-4by3">
+          <img src="{{ champion.icon }}" alt="{{ champions.name }}" style="width: 280px; height: 360px;"/>
+        </figure>
+      </div>
+      <div class="card-header">
+        <p class="card-header-title">{{ champion.name }}</p>
+      </div>
+    </div>
+  </a>
+  {% endfor %}
 </div>
-{% endfor %} 
+
 {% endblock %}

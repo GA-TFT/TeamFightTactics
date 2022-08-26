@@ -30,7 +30,7 @@ class Champion(models.Model):
 
 class Trait(models.Model):
     name = models.CharField(max_length=500)
-    disc = models.CharField("Description", max_length=900)
+    desc = models.CharField("Description", max_length=900)
     icon = models.CharField(max_length=100)
 
     def __str__(self):
@@ -44,7 +44,7 @@ class Trait(models.Model):
 
 class Augment(models.Model):
     name = models.CharField(max_length=500)
-    teir = models.IntegerField()
+    tier = models.IntegerField()
     desc = models.CharField("Description", max_length=900)
     icon = models.CharField(max_length=100)
 

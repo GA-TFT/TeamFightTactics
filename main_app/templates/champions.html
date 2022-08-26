@@ -1,42 +1,15 @@
-{% extends 'base.html' %}
-{% block title %}Champions{% endblock %}
+{% extends 'base.html' %} 
 {% block content %}
 
-<h1 class="title pt-5">Champions</h1>
-<div class="gallery">
-    <a href="">
-        <div class="card">
-            <div class="card-image">
-                <figure class="image is-square">
-                    <img src="{{champion.image}}" alt="{{champion.name}}" />
-                </figure>
-            </div>
-            {% for champion in champions %}
-      <div class="card-header">
-        <p class="card-header-title">{{ champion.name }}</p>
-        <span>Ability: {{ champion.ability }}</span>
-        <span>Ability Name: {{ champion.abiliname }}</span>
-        <span>Ability Icon: {{ champion.abilicon }}</span>
-        <span>Cost: {{ champion.cost }}</span>
-        <span>Icon: {{ champion.icon }}</span>
-        <span>Armor: {{ champion.armor }}</span>
-        <span>Attack Speed: {{ champion.attack_speed }}</span>
-        <span>Damage: {{ champion.damage }}</span>
-        <span>Hp: {{ champion.hp }}</span>
-        <span>Initial Mana: {{ champion.initialmana }}</span>
-        <span>Magic Resist: {{ champion.magic_resist }}</span>
-        <span>Mana: {{ champion.mana }}</span>
-        <span>Range: {{ champion.range }}</span>
-        <span>Traits: {{ champion.traits }}</span>
-    </div>
+<h1>All Champions</h1>
+
+{% for champion in Champions %}
+<div class="card">
+        <div class="card-content">
+            <span class="card-title">{{ champion.name }}</span>
+            <p>Ability: {{ champion.ability }}</p>
+        </div>
+    </a>
 </div>
-</a>
-{% empty %}
-<article class="message">
-    <div class="message-header">
-        <p>Where Are My Champions At ?!</p>
-    </div>
-</article>
-{% endfor %}
-</div>
+{% endfor %} 
 {% endblock %}

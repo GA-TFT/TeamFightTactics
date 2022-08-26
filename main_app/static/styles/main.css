@@ -63,8 +63,8 @@ h1 {
 }
 
 .gallery .card {
-    min-width: 80px;
-    max-width: 10%;
+    min-width: 804px;
+    max-width: 100%;
     transition: 0.1s linear;
 }
 

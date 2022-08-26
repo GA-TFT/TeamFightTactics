@@ -14,7 +14,16 @@ def champions(request):
   return render(request, 'champions.html', {'champions': champions})
 
 def augments(request):
-  return render(request, 'augments.html')
+  augmentSilver = Augment.objects.filter(tier=1)
+  return render(request, 'augments.html', {'augments': augmentSilver})
+
+def augments(request):
+  augmentGold = Augment.objects.filter(tier=2)
+  return render(request, 'augments.html', {'augments': augmentGold})
+  
+def augments(request):
+  augmentPris = Augment.objects.filter(tier=3)
+  return render(request, 'augments.html', {'augments': augmentPris})
 
 def traits(request):
   traits = Trait.objects.all()

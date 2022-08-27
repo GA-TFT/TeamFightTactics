@@ -17,13 +17,13 @@ def augments(request):
   augmentSilver = Augment.objects.filter(tier=1)
   return render(request, 'augments.html', {'augments': augmentSilver})
 
-def augments(request):
+def augmentgold(request):
   augmentGold = Augment.objects.filter(tier=2)
-  return render(request, 'augments.html', {'augments': augmentGold})
+  return render(request, 'augmentgold.html', {'augments': augmentGold})
   
-def augments(request):
+def augmentpris(request):
   augmentPris = Augment.objects.filter(tier=3)
-  return render(request, 'augments.html', {'augments': augmentPris})
+  return render(request, 'augmentpris.html', {'augments': augmentPris})
 
 def traits(request):
   traits = Trait.objects.all()

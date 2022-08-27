@@ -1,8 +1,7 @@
 {% extends 'base.html' %}
-
 {% block content %}
-
-<h1 class="title">All Champions</h1>
+<h1>All Champions</h1>
+<hr />
 <div class="gallery">
   {% for champion in champions %}
   <a href="">
@@ -21,5 +20,4 @@
   </a>
   {% endfor %}
 </div>
-
 {% endblock %}

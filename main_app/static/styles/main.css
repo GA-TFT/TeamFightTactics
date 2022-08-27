@@ -60,6 +60,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    margin-left: 2rem;
 }
 
 .gallery .card {

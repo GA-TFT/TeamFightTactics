@@ -1,7 +1,12 @@
 {% extends 'base.html' %}
-
 {% block content %}
-<h1>About the Cat Collector</h1>
+<h1>Hextech Augments</h1>
 <hr />
-<p>Hire the Cat Collector!</p>
+<div class="menu">
+        <li class="navbar-item"><a href="{% url 'home' %}">Silver</a></li>
+        <li class="navbar-item"><a href="{% url 'home' %}">Gold</a></li>
+        <li class="navbar-item"><a href="{% url 'home' %}">Prismatic</a></li>
+    </div>
+    <hr />
+</div>
 {% endblock %}

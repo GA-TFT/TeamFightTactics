@@ -66,115 +66,55 @@ h1 {
     min-width: 280px;
     max-width: 30%;
     transition: 0.1s linear;
-    /* padding-top: 10%; */
-    /* padding-right: 20%; */
     background-color: rgb(113, 111, 112);
 }
 
 .gallery .card:hover {
-    transform: scale(1.3);
+    transform: scale(1.02);
 }
 
-
-/* div {
-    display: block;
-}
-* {
-    box-sizing: border-box;
-    outline: none!important;
-    
-}
-
-.the-grid{
-    position: relative;
-    padding: 0pc 1.6rem 3.2rem;
-    padding-top: 0px;
-    padding-right: 1.6rem;
-    padding-bottom: 3.2rem;
-    padding-left: 8.8rem;
-    /* min-height: var(--app-content-min-height); */
-/* }
-
-.the-grid2{
-    max-width: 100rem;
-    width: 100%;
-    flex: 1 1 100%;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 100%;
-}
-
-.champ-grid{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-    padding: 0.8rem 0;
-    padding-top: 0.8rem;
-    padding-right: 0px;
-    padding-bottom: 0.8rem;
-    padding-left: 0px;
-    grid-gap: 1.6rem;
-    row-gap: 1.6rem;
-    column-gap: 1.6rem;
-    align-content: center;
+.menu{
+    display: flex;
     justify-content: center;
     align-items: center;
-    justify-items: center;
+    -webkit-box-align: center;
 }
 
-.champ-img{
-    position: relative;
+.menu .navbar-item {
     display: flex;
-    flex-direction: column;
-    -webkit-box-pack: end;
-    justify-content: flex-end;
-    font-size: 1.6rem;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    letter-spacing: 0.025rem;
     border: 1px;
-    border-top-style: solid;
-    border-top-width: 1px;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-image-source: initial;
-    border-image-slice: initial;
-    border-image-width: initial;
-    border-image-outset: initial;
-    border-image-repeat: initial;
-    border-radius: 4px;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
-    border-bottom-left-radius: 4px;
-    height: 17.5rem;
-    overflow: hidden;
-    width: 22rem;
-    height: 17.5rem;
+    height: 4rem;
+    padding-right: 2.8rem;
+    padding-left: 2.8rem;
+    margin-right: -1px;
+    margin-left: -1px;
+    color: white;
 }
 
-.champ-bar{
-    font-size: 1.6rem;
-    line-height: 2.4rem;
-    letter-spacing: 0.015rem;
-    display: flex;
-    justify-content: space-between;
+/* traits ccs */
+
+.card{
+    max-width: 60%;
+    margin-left: 23rem;
+    margin-right: 10rem;
+    margin-bottom: 0.40rem;
+    background: rgb(20, 20, 20);
+}
+
+.card-title{
     color: white;
-    padding: 1rem 1.2rem;
-    padding-top: 0.5rem;
-    padding-right: 1.2rem;
-    padding-left: 1.2rem;
-    padding-bottom: 1rem;
-    background: black;
-    background-image: initial;
-    background-position-x: initial;
-    background-position-y: initial;
-    background-size: initial;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: rgb(30, 30, 30);
-} */
+}
+.content{
+    color: white;
+}
+
+p{
+    color: white;
+}
+

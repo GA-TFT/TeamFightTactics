@@ -5,9 +5,15 @@ from django.http import HttpResponse
 from django.views.generic.base import TemplateView
 from .models import Augment, Champion, Trait
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
-import json
+import pafy, vlc
+
+
 
 def home(request):
+  # url = "https://www.youtube.com/watch?v=8iVI7YeqK4s"
+  # video = pafy.new(url)
+  # best = video.getbest()
+  # media = vlc.MediaPlayer(best.url)
   return render(request, 'home.html')
 
 def champions(request):

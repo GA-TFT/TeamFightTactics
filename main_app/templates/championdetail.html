@@ -1,10 +1,7 @@
-{% extends 'base.html' %}
-{% block content %}
-<h1>All Champions</h1>
-<hr />
+{% extends 'base.html' %} {% block content %}
+
+<h1>Champion Details</h1>
 <div class="gallery">
-  {% for champion in champions %}
-  <a href="{% url 'detail' champion.name %}">
     <div class="card" >
         <div class="card-image">
             <figure class="image is-4by3">
@@ -17,7 +14,5 @@
             <p class="card-header-title">{{ champion.name }} Cost : {{ champion.cost }}</p>
         </div>
     </div>
-  </a>
-  {% endfor %}
 </div>
 {% endblock %}

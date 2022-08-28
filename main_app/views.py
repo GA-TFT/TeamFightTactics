@@ -1,3 +1,4 @@
+from unicodedata import name
 from django.shortcuts import render
 from django.views import View
 from django.http import HttpResponse
@@ -13,6 +14,15 @@ def champions(request):
   champions = Champion.objects.all()
   return render(request, 'champions.html', {'champions': champions})
 
+def champion_detail(request, champion_name):
+  champion = Champion.objects.get(name=champion_name)
+  
+  return render(request, 'championdetail.html', {'champion': champion})
+
+def traits(request):
+  traits = Trait.objects.all()
+  return render(request, 'traits.html', {'traits': traits})
+
 def augments(request):
   augmentSilver = Augment.objects.filter(tier=1)
   return render(request, 'augments.html', {'augments': augmentSilver})
@@ -25,17 +35,9 @@ def augmentpris(request):
   augmentPris = Augment.objects.filter(tier=3)
   return render(request, 'augmentpris.html', {'augments': augmentPris})
 
-def traits(request):
-  traits = Trait.objects.all()
-  return render(request, 'traits.html', {'traits': traits})
 
-# def champions_index(request):
-#   champions = Champion.objects.all()
-#   return render(request, 'champions/index.html', {'champions': champions})
 
-# def champions_detail(request, champion_id):
-#   champion = Champion.objects.get(id=champion_id)
-#   return render(request, 'champions/detail.html')
+
 
 # Class-Based View (CBV)
 class ChampionCreate(CreateView):

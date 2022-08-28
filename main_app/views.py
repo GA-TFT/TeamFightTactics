@@ -3,18 +3,12 @@ from django.shortcuts import render
 from django.views import View
 from django.http import HttpResponse
 from django.views.generic.base import TemplateView
-from .models import Augment, Champion, Trait
+from .models import Augment, Champion, Trait, Video
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
-import pafy, vlc
-
-
 
 def home(request):
-  # url = "https://www.youtube.com/watch?v=8iVI7YeqK4s"
-  # video = pafy.new(url)
-  # best = video.getbest()
-  # media = vlc.MediaPlayer(best.url)
-  return render(request, 'home.html')
+  videos = Video.objects.all()
+  return render(request, 'home.html', {'videos': videos})
 
 def champions(request):
   champions = Champion.objects.all()
@@ -83,4 +77,14 @@ class AugmentDelete(DeleteView):
   model = Augment
   success_url = '/augments/'
 
+class VideoCreate(CreateView):
+  model = Video
+  fields = '__all__'
 
+class VideoUpdate(UpdateView):
+  model = Video
+  fields = ['title', 'url']
+
+class VideoDelete(DeleteView):
+  model = Video
+  success_url = '/sideos/'

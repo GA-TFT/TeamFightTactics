@@ -1,12 +1,28 @@
 {% extends 'base.html' %}
 {% load embed_video_tags %}
-
-
-
 {% block content %}
-<h1>Home</h1>
+<h1>Team Fight Meta</h1>
+<hr />
     {% for item in videos %}
-        {% video item.url '426x240' %}
-
+    {% video item.url '426x240' %}
     {% endfor %}
+
+    <div class="container">
+    <!-- <img src="{{ champion.icon }}" style="width:90px"> -->
+    <!-- Meta Comp Name -->
+    <img class="tier" src="https://expertgamereviews.com/wp-content/uploads/2022/04/S-Tier-Icon.png" style="width: 60px; height: 60px;">
+    <div class="photos">
+        <img src="https://rerollcdn.com/characters/Skin/7/Gnar.png">
+        <img src="https://rerollcdn.com/characters/Skin/7/Gnar.png">
+        <img src="https://rerollcdn.com/characters/Skin/7/Gnar.png">
+        <img src="https://rerollcdn.com/characters/Skin/7/Gnar.png">
+        <img src="https://rerollcdn.com/characters/Skin/7/Gnar.png">
+        <img src="https://rerollcdn.com/characters/Skin/7/Gnar.png">
+    </div>
+    <div class="champ-header">
+        <!-- Tier img -->
+        <!-- <p class="champ-header-title">S Tier{{ champion.icon }}</p> -->
+        <!-- champions icons -->
+    </div>
+    </div>
 {% endblock %}

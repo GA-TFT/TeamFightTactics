@@ -166,3 +166,70 @@ h4{
 .desc{
     margin-top: 0.30rem;
 }
+
+/* comp list */
+
+.container {
+    border: 2px solid #ccc;
+    background-color: rgb(20, 20, 20);
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+    margin-left: 17rem;
+}
+
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.container img {
+    float: left;
+    margin-right: 60px;
+}
+
+.container span {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.champ-icon{
+    display: flex;
+    justify-content: end;
+}
+
+.champ-header-title{
+    color: white;
+    font-size: 1.3rem;
+}
+
+.champ-header{
+    color: white;
+    margin-right: 1.2rem;
+    margin-top: 0.70rem;
+    font-size: 1.3rem;
+}
+
+
+.champ-header-title{
+    color: white;
+    font-size: 1.3rem;
+}
+
+.photos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.photos img {
+    display: block;
+    float: left;
+    flex: 0 0 auto;
+    margin-left: 1rem;
+  }

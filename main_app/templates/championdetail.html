@@ -1,18 +1,36 @@
 {% extends 'base.html' %} {% block content %}
 
 <h1>Champion Details</h1>
-<div class="gallery">
-    <div class="card" >
-        <div class="card-image">
-            <figure class="image is-4by3">
-                <img src="{{ champion.icon }}" alt="{{ champions.name }}" style="width: 300px; height: 210px;"/>
-            </figure>
-            <img src="https://cdn.mobalytics.gg/assets/common/icons/tft-synergies-set7/24-shimmerscale.svg?v=12"/>
-            <p>{{ traits.name }}</p>
-        </div>
-        <div class="card-header">
-            <p class="card-header-title">{{ champion.name }} Cost : {{ champion.cost }}</p>
-        </div>
+<hr />
+<div class="card1">
+    <div class="card-image">
+      <figure class="image is-4by3">
+        <img src="{{ champion.icon }}" alt="Placeholder image">
+      </figure>
     </div>
-</div>
+    <div class="card-content">
+      <div class="media">
+        <div class="media-left">
+          <figure class="image is-18x18">
+            <img src="{{ champion.abilicon }}" alt="Placeholder image">
+        </figure>
+    </div>
+    <h4>{{ champion.abilname }}</h4>
+        <div class="media-content">
+          <p class="title is-4">{{ champion.name }}</p>
+        </div>
+      </div>
+      <div class="content1">{{ champion.ability }}
+    </div>
+    <div class="desc">
+        <p>HP: {{ champion.hp }}</p>
+        <p>Armor: {{ champion.armor }}</p>
+        <p>Magic Resist: {{ champion.magic_resist }}</p>
+        <p>Damage: {{ champion.damage }}</p>
+        <p>Attack Speed: {{ champion.attack_speed }}</p>
+        <p>Initial Mana: {{ champion.initialmana }}</p>
+        <p>Range: {{ champion.range }}</p>
+    </div>
+    </div>
+  </div>
 {% endblock %}

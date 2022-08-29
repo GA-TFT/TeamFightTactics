@@ -90,4 +90,16 @@ class VideoUpdate(UpdateView):
 
 class VideoDelete(DeleteView):
   model = Video
-  success_url = '/sideos/'
+  success_url = '/videos/'
+
+class TraitImgCreate(CreateView):
+  model = TraitImg
+  fields = '__all__'
+
+class TraitImgUpdate(UpdateView):
+  model = TraitImg
+  fields = ['name', 'image', 'charimg']
+
+class TraitImgDelete(DeleteView):
+  model = TraitImg
+  success_url = '/traitimg/'

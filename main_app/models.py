@@ -20,7 +20,7 @@ class Trait(models.Model):
         ordering = ['name']
 
 class TraitImg(models.Model):
-    name = models.CharField(max_length=100)
+    charname = models.CharField(max_length=100)
     image = models.ImageField(upload_to='media/')
     charimg = models.ForeignKey(Trait, related_name='charimg', on_delete=models.CASCADE)
 
@@ -28,7 +28,7 @@ class TraitImg(models.Model):
         return f'{self.name} ({self.id})'
 
     class Meta:
-        ordering = ['name']
+        ordering = ['charname']
 
 class Champion(models.Model):
     ability = models.CharField(max_length=500)

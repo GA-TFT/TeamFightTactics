@@ -1,10 +1,12 @@
+from hmac import compare_digest
 from django.shortcuts import render
-from .models import Augment, Champion, Trait, Video
+from .models import Augment, Champion, Trait, Video, Comp
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 
 def home(request):
   videos = Video.objects.all()
-  return render(request, 'home.html', {'videos': videos})
+  comps = Comp.objects.all()
+  return render(request, 'home.html', {'videos': videos, 'comps': comps})
 
 def champions(request):
   champions = Champion.objects.all()
@@ -80,3 +82,15 @@ class VideoUpdate(UpdateView):
 class VideoDelete(DeleteView):
   model = Video
   success_url = '/videos/'
+
+class CompCreate(CreateView):
+  model = Comp
+  fields = '__all__'
+
+class CompUpdate(UpdateView):
+  model = Comp
+  fields = ['title', 'url']
+
+class CompDelete(DeleteView):
+  model = Comp
+  success_url = '/comp/'

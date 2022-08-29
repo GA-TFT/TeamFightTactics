@@ -3,6 +3,15 @@ from django.db import models
 from embed_video.fields import EmbedVideoField
 
 # Create your models here.
+class Trait(models.Model):
+    name = models.CharField(max_length=500)
+    desc = models.CharField("Description", max_length=900)
+    icon = models.CharField(max_length=100)
+    champions = models.CharField(max_length=100)
+
+    def __str__(self):
+        return f'{self.name} ({self.id})'
+
 class Champion(models.Model):
     ability = models.CharField(max_length=500)
     abilname = models.CharField(max_length=100)
@@ -19,6 +28,7 @@ class Champion(models.Model):
     range = models.IntegerField()
     traits = models.CharField(max_length=100)
 
+
     def __str__(self):
         return f'{self.name} ({self.id})'
 
@@ -30,10 +40,7 @@ class Champion(models.Model):
     class Meta:
         ordering = ['name']
 
-class Trait(models.Model):
-    name = models.CharField(max_length=500)
-    desc = models.CharField("Description", max_length=900)
-    icon = models.CharField(max_length=100)
+
 
     def __str__(self):
         return f'{self.name} ({self.id})'

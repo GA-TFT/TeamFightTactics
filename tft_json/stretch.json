@@ -34,7 +34,7 @@
       "ability": {
         "desc": "Anivia summons a prismatic storm around her target, dealing magic damage over 3 seconds. Enemies in the storm have their Magic Reisist reduced by 40%.",
         "name": "Prismatic Storm",
-        "abilicon": "https://rerollcdn.com/abilities/7/anivia-prismatic-storm.png",
+        "abilicon": " ",
         "variables": [
           {
           "name": "Damage",

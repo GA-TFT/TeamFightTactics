@@ -12,6 +12,12 @@ class Trait(models.Model):
     def __str__(self):
         return f'{self.name} ({self.id})'
 
+    def get_absolute_url(self):
+        return reverse('detail', kwargs={'trait_id': self.id})
+
+    class Meta:
+        ordering = ['name']
+
 class Champion(models.Model):
     ability = models.CharField(max_length=500)
     abilname = models.CharField(max_length=100)
@@ -36,17 +42,6 @@ class Champion(models.Model):
         return reverse('detail', kwargs={'champion_name': self.name})
     # def get_absolute_url(self):
     #     return reverse('detail', kwargs={'champion_id': self.id})
-
-    class Meta:
-        ordering = ['name']
-
-
-
-    def __str__(self):
-        return f'{self.name} ({self.id})'
-
-    def get_absolute_url(self):
-        return reverse('detail', kwargs={'trait_id': self.id})
 
     class Meta:
         ordering = ['name']

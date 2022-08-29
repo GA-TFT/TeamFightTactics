@@ -60,7 +60,7 @@ class Champion(models.Model):
     initialmana = models.CharField('Mana', max_length=100)
     magic_resist = models.IntegerField('Magic Resist')
     range = models.IntegerField()
-    traits = models.CharField(max_length=100)
+    trait = models.CharField(max_length=100)
 
     def __str__(self):
         return f'{self.name} ({self.id})'

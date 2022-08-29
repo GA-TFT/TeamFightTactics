@@ -40,6 +40,12 @@ class Trait(models.Model):
     class Meta:
         ordering = ['name']
 
+class Traitimg(models.Model):
+    charname = models.CharField(max_length=100)
+    image = models.ImageField(upload_to='main_app/static/images/home', blank=True)
+    charimage = models.ForeignKey(Trait, related_name='traitimage', on_delete=models.CASCADE)
+
+
 class Champion(models.Model):
     ability = models.CharField(max_length=500)
     abilname = models.CharField(max_length=100)

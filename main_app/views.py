@@ -46,7 +46,6 @@ class ChampionDelete(DeleteView):
   model = Champion
   success_url = '/champions/'
 
-
 class TraitCreate(CreateView):
   model = Trait
   fields = '__all__'
@@ -89,7 +88,7 @@ class CompCreate(CreateView):
 
 class CompUpdate(UpdateView):
   model = Comp
-  fields = ['title', 'url']
+  fields = ['name','tier', 'desc', 'imgone','imgtwo','imgthree','imgfour','imgfive','imgsix','imgseven','nameone','nametwo', 'namethree', 'namefour', 'namefive', 'namesix', 'nameseve']
 
 class CompDelete(DeleteView):
   model = Comp

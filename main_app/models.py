@@ -4,28 +4,27 @@ from embed_video.fields import EmbedVideoField
 
 # Create your models here.
 class Comp(models.Model):
-    name: models.CharField(max_length=500)
-    tier: models.CharField(max_length=500)
-    desc: models.CharField(max_length=500)
-    imgone: models.CharField(max_length=500)
-    imgtwo: models.CharField(max_length=500)
-    imgthree: models.CharField(max_length=500)
-    imgfour: models.CharField(max_length=500)
-    imgfive: models.CharField(max_length=500)
-    imgsix: models.CharField(max_length=500)
-    imgseven: models.CharField(max_length=500)
-    nameone: models.CharField(max_length=500)
-    nametwo: models.CharField(max_length=500)
-    namethree: models.CharField(max_length=500)
-    namefour: models.CharField(max_length=500)
-    namefive: models.CharField(max_length=500)
-    namesix: models.CharField(max_length=500)
-    nameseven: models.CharField(max_length=500)
+    name = models.CharField(max_length=500)
+    tier = models.CharField(max_length=500)
+    desc = models.CharField(max_length=500)
+    imgone = models.CharField(max_length=500)
+    imgtwo = models.CharField(max_length=500)
+    imgthree = models.CharField(max_length=500)
+    imgfour =models.CharField(max_length=500)
+    imgfive = models.CharField(max_length=500)
+    imgsix = models.CharField(max_length=500)
+    imgseven = models.CharField(max_length=500)
+    nameone = models.CharField(max_length=500)
+    nametwo = models.CharField(max_length=500)
+    namethree = models.CharField(max_length=500)
+    namefour =models.CharField(max_length=500)
+    namefive = models.CharField(max_length=500)
+    namesix = models.CharField(max_length=500)
+    nameseven = models.CharField(max_length=500)
 
     def __str__(self):
         return f'{self.name} ({self.id})'
     
-
 class Trait(models.Model):
     name = models.CharField(max_length=500)
     desc = models.CharField("Description", max_length=900)
@@ -56,7 +55,6 @@ class Champion(models.Model):
     magic_resist = models.IntegerField('Magic Resist')
     range = models.IntegerField()
     traits = models.CharField(max_length=100)
-
 
     def __str__(self):
         return f'{self.name} ({self.id})'

@@ -6,10 +6,10 @@
   <div class="cards">
       <div class="card-content">
         <div class="card-title">  <img src="{{ trait.icon }}"/>{{ trait.name }}</div>
-        <div class="content">Description: {{ trait.desc|linebreaks }}
+        <div class="content">{{ trait.desc }}
         </div>
         <div>{{ trait.champions }}</div>
       </div>
   </div>
-{% endfor %}
+  {% endfor %}
 {% endblock %}

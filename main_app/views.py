@@ -1,3 +1,4 @@
+from gc import get_objects
 from unicodedata import name
 from django.shortcuts import render
 from django.views import View
@@ -17,7 +18,8 @@ def champions(request):
 
 def champion_detail(request, champion_name):
   champion = Champion.objects.get(name=champion_name)
-  return render(request, 'championdetail.html', {'champion': champion})
+  traits = Trait.objects.all()
+  return render(request, 'championdetail.html', {'champion': champion, 'traits':traits})
 
 def traits(request):
   traits = Trait.objects.all()

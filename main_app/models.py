@@ -19,17 +19,6 @@ class Trait(models.Model):
     class Meta:
         ordering = ['name']
 
-class TraitImg(models.Model):
-    charname = models.CharField(max_length=100)
-    image = models.ImageField(upload_to='media/')
-    charimg = models.ForeignKey(Trait, related_name='charimg', on_delete=models.CASCADE)
-
-    def __str__(self):
-        return f'{self.name} ({self.id})'
-
-    class Meta:
-        ordering = ['charname']
-
 class Champion(models.Model):
     ability = models.CharField(max_length=500)
     abilname = models.CharField(max_length=100)

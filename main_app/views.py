@@ -4,7 +4,7 @@ from django.shortcuts import render
 from django.views import View
 from django.http import HttpResponse
 from django.views.generic.base import TemplateView
-from .models import Augment, Champion, Trait, Video, TraitImg
+from .models import Augment, Champion, Trait, Video
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 
 def home(request):
@@ -23,7 +23,6 @@ def champion_detail(request, champion_name):
 
 def traits(request):
   traits = Trait.objects.all()
-  traitimg = TraitImg.objects.all()
   return render(request, 'traits.html', {'traits': traits, 'traitimg':traitimg})
 
 def augments(request):
@@ -92,14 +91,14 @@ class VideoDelete(DeleteView):
   model = Video
   success_url = '/videos/'
 
-class TraitImgCreate(CreateView):
-  model = TraitImg
-  fields = '__all__'
+# class TraitImageCreate(CreateView):
+#   model = TraitImage
+#   fields = '__all__'
 
-class TraitImgUpdate(UpdateView):
-  model = TraitImg
-  fields = ['name', 'image', 'charimg']
+# class TraitImageUpdate(UpdateView):
+#   model = TraitImage
+#   fields = ['name', 'image', 'charimg']
 
-class TraitImgDelete(DeleteView):
-  model = TraitImg
-  success_url = '/traitimg/'
+# class TraitImageDelete(DeleteView):
+#   model = TraitImage
+#   success_url = '/traitimg/'

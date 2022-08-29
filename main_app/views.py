@@ -1,10 +1,5 @@
-from gc import get_objects
-from unicodedata import name
 from django.shortcuts import render
-from django.views import View
-from django.http import HttpResponse
-from django.views.generic.base import TemplateView
-from .models import Augment, Champion, Trait, Video
+from .models import Augment, Champion, Trait, Video, TraitImage
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 
 def home(request):
@@ -13,7 +8,6 @@ def home(request):
 
 def champions(request):
   champions = Champion.objects.all()
-  # traits = Trait.objects.filter(champions_contain=champion_name)
   return render(request, 'champions.html', {'champions': champions})
 
 def champion_detail(request, champion_name):
@@ -36,10 +30,6 @@ def augmentgold(request):
 def augmentpris(request):
   augmentPris = Augment.objects.filter(tier=3)
   return render(request, 'augmentpris.html', {'augments': augmentPris})
-
-
-
-
 
 # Class-Based View (CBV)
 class ChampionCreate(CreateView):
@@ -91,14 +81,14 @@ class VideoDelete(DeleteView):
   model = Video
   success_url = '/videos/'
 
-# class TraitImageCreate(CreateView):
-#   model = TraitImage
-#   fields = '__all__'
+class TraitImageCreate(CreateView):
+  model = TraitImage
+  fields = '__all__'
 
-# class TraitImageUpdate(UpdateView):
-#   model = TraitImage
-#   fields = ['name', 'image', 'charimg']
+class TraitImageUpdate(UpdateView):
+  model = TraitImage
+  fields = ['name', 'image', 'charimg']
 
-# class TraitImageDelete(DeleteView):
-#   model = TraitImage
-#   success_url = '/traitimg/'
+class TraitImageDelete(DeleteView):
+  model = TraitImage
+  success_url = '/traitimg/'

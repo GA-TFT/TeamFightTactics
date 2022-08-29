@@ -1,4 +1,3 @@
-from email.mime import image
 from django.urls import reverse
 from django.db import models
 from embed_video.fields import EmbedVideoField
@@ -18,6 +17,17 @@ class Trait(models.Model):
 
     class Meta:
         ordering = ['name']
+
+class TraitImage(models.Model):
+    charname = models.CharField(max_length=100)
+    image = models.ImageField(upload_to='media/')
+    charimg = models.ForeignKey(Trait, related_name='charimg', on_delete=models.CASCADE)
+
+    def __str__(self):
+        return f'{self.name} ({self.id})'
+
+    class Meta:
+        ordering = ['charname']
 
 class Champion(models.Model):
     ability = models.CharField(max_length=500)

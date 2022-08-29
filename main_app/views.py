@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import Augment, Champion, Trait, Video, TraitImage
+from .models import Augment, Champion, Trait, Video
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 
 def home(request):
@@ -80,15 +80,3 @@ class VideoUpdate(UpdateView):
 class VideoDelete(DeleteView):
   model = Video
   success_url = '/videos/'
-
-class TraitImageCreate(CreateView):
-  model = TraitImage
-  fields = '__all__'
-
-class TraitImageUpdate(UpdateView):
-  model = TraitImage
-  fields = ['name', 'image', 'charimg']
-
-class TraitImageDelete(DeleteView):
-  model = TraitImage
-  success_url = '/traitimg/'

@@ -12,11 +12,11 @@ def home(request):
 
 def champions(request):
   champions = Champion.objects.all()
+  # traits = Trait.objects.filter(champions_contain=champion_name)
   return render(request, 'champions.html', {'champions': champions})
 
 def champion_detail(request, champion_name):
   champion = Champion.objects.get(name=champion_name)
-  
   return render(request, 'championdetail.html', {'champion': champion})
 
 def traits(request):

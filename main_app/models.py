@@ -1,3 +1,4 @@
+from email.mime import image
 from django.urls import reverse
 from django.db import models
 from embed_video.fields import EmbedVideoField
@@ -14,6 +15,17 @@ class Trait(models.Model):
 
     def get_absolute_url(self):
         return reverse('detail', kwargs={'trait_id': self.id})
+
+    class Meta:
+        ordering = ['name']
+
+class TraitImg(models.Model):
+    name = models.CharField(max_length=100)
+    image = models.ImageField(upload_to='media/')
+    charimg = models.ForeignKey(Trait, related_name='charimg', on_delete=models.CASCADE)
+
+    def __str__(self):
+        return f'{self.name} ({self.id})'
 
     class Meta:
         ordering = ['name']
@@ -40,8 +52,6 @@ class Champion(models.Model):
 
     def get_url(self):
         return reverse('detail', kwargs={'champion_name': self.name})
-    # def get_absolute_url(self):
-    #     return reverse('detail', kwargs={'champion_id': self.id})
 
     class Meta:
         ordering = ['name']

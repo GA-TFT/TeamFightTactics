@@ -3,7 +3,7 @@ from django.shortcuts import render
 from django.views import View
 from django.http import HttpResponse
 from django.views.generic.base import TemplateView
-from .models import Augment, Champion, Trait, Video
+from .models import Augment, Champion, Trait, Video, TraitImg
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 
 def home(request):
@@ -21,7 +21,8 @@ def champion_detail(request, champion_name):
 
 def traits(request):
   traits = Trait.objects.all()
-  return render(request, 'traits.html', {'traits': traits})
+  traitimg = TraitImg.objects.all()
+  return render(request, 'traits.html', {'traits': traits, 'traitimg':traitimg})
 
 def augments(request):
   augmentSilver = Augment.objects.filter(tier=1)

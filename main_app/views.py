@@ -17,7 +17,7 @@ def champion_detail(request, champion_name):
 
 def traits(request):
   traits = Trait.objects.all()
-  return render(request, 'traits.html', {'traits': traits, 'traitimg':traitimg})
+  return render(request, 'traits.html', {'traits': traits})
 
 def augments(request):
   augmentSilver = Augment.objects.filter(tier=1)

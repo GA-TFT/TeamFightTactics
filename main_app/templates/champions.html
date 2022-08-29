@@ -11,10 +11,11 @@
                 <img src="{{ champion.icon }}" alt="{{ champions.name }}" style="width: 300px; height: 210px;"/>
             </figure>
             <img src="https://cdn.mobalytics.gg/assets/common/icons/tft-synergies-set7/24-shimmerscale.svg?v=12"/>
-            <p>{{ champion.traits }}</p>
+            <!-- <p>{{ champion.traits }}</p> -->
         </div>
         <div class="card-header">
-            <p class="card-header-title">{{ champion.name }} Cost : {{ champion.cost }}</p>
+            <p class="card-header-title">{{ champion.name }}</p>
+            <p class="cost-header">Cost: {{ champion.cost }}</p>
         </div>
     </div>
   </a>

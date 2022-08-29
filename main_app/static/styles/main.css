@@ -67,7 +67,7 @@ h1 {
     min-width: 280px;
     max-width: 30%;
     transition: 0.1s linear;
-    background-color: rgb(113, 111, 112);
+    background-color: rgb(20, 20, 20);
 }
 
 .gallery .card:hover {
@@ -98,6 +98,18 @@ h1 {
     color: white;
 }
 
+.card-header-title{
+    color: white;
+    font-size: 1.3rem;
+}
+
+.cost-header{
+    color: white;
+    margin-right: 1.2rem;
+    margin-top: 0.70rem;
+    font-size: 1.3rem;
+}
+
 /* traits ccs */
 
 .cards{
@@ -113,9 +125,44 @@ h1 {
 }
 .content{
     color: white;
+    padding-top: 2rem;
 }
 
 p{
     color: white;
 }
 
+/* champion detail */
+
+.card1{
+    padding-left: 30rem;
+    padding-right: 30rem;
+}
+
+.card-content{
+    background-color: rgb(20, 20, 20);
+    
+}
+
+.title.is-4{
+    color: white;
+    font-size: 2rem;
+    margin-top: 0.79rem;
+    margin-right: 18rem;
+    display: flex;
+    justify-content: center;
+}
+
+.content1{
+    color: white;
+    padding-top: 2rem;
+}
+
+h4{
+    font-size: 1.4rem;
+    margin-top: 0.79rem;
+}
+
+.desc{
+    margin-top: 0.30rem;
+}

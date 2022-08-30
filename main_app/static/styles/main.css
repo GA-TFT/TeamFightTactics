@@ -178,58 +178,73 @@ h4{
     margin-left: 17rem;
 }
 
-
-.container::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-
-.container img {
-    float: left;
-    margin-right: 60px;
-}
-
 .container span {
     font-size: 20px;
     margin-right: 15px;
-}
-
-.champ-icon{
-    display: flex;
-    justify-content: end;
-}
-
-.champ-header-title{
-    color: white;
-    font-size: 1.3rem;
-}
-
-.champ-header{
-    color: white;
-    margin-right: 1.2rem;
-    margin-top: 0.70rem;
-    font-size: 1.3rem;
-}
-
-
-.champ-header-title{
-    color: white;
-    font-size: 1.3rem;
 }
 
 .photos {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    padding: 0;
+    justify-content: center;
+    margin-top: -5rem;
 }
 
 .photos img {
     display: block;
     float: left;
     flex: 0 0 auto;
-    margin-left: 1rem;
-  }
+    margin-left: 4rem;
+}
+
+.tier-icon{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60px;
+    height: 55px;
+}
+
+.icons{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    margin-left: 3rem;
+}
+
+.label-icon{
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-right: -7.95rem;
+    margin-left: -2.7rem;
+}
+
+.comp-gird{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    justify-content: center;
+    padding: .5rem;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: #333333;
+    color: #d9d9d9;
+}
+
+.comp-name {
+    margin-top: 1rem;
+    margin-right: 4rem;
+    margin-left: 2.5rem;
+    font-size: 1.5rem;
+}
+
+.comp-desc{
+    margin-left: 14.3rem;
+}

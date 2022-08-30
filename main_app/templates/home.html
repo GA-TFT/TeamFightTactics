@@ -6,23 +6,30 @@
     {% for item in videos %}
     {% video item.url '426x240' %}
     {% endfor %}
-
+    {% for comp in comps %}
     <div class="container">
-    <!-- <img src="{{ champion.icon }}" style="width:90px"> -->
-    <!-- Meta Comp Name -->
-    <img class="tier" src="https://expertgamereviews.com/wp-content/uploads/2022/04/S-Tier-Icon.png" style="width: 60px; height: 60px;">
-    <div class="photos">
-        <img src="https://rerollcdn.com/characters/Skin/7/Gnar.png">
-        <img src="https://rerollcdn.com/characters/Skin/7/Gnar.png">
-        <img src="https://rerollcdn.com/characters/Skin/7/Gnar.png">
-        <img src="https://rerollcdn.com/characters/Skin/7/Gnar.png">
-        <img src="https://rerollcdn.com/characters/Skin/7/Gnar.png">
-        <img src="https://rerollcdn.com/characters/Skin/7/Gnar.png">
+        <div class="comp-name">{{ comp.name }}</div>
+        <div class="comp-desc">{{ comp.desc }}</div>
+        <div class="photos">
+            <div class="comp-grid">
+                <img class="tier-icon"src="{{ comp.tier }}">
+            <img class="icons" src="{{ comp.imgone }}">
+            <img class="icons" src="{{ comp.imgtwo }}">
+            <img class="icons" src="{{ comp.imgthree }}">
+            <img class="icons" src="{{ comp.imgfour }}">
+            <img class="icons" src="{{ comp.imgfive }}">
+            <img class="icons" src="{{ comp.imgsix }}">
+            <img class="icons" src="{{ comp.imgseven }}">
+            <p class="label-icon">{{ comp.nameseven }}</p>
+            <p class="label-icon">{{ comp.namesix }}</p>
+            <p class="label-icon">{{ comp.namefive }}</p>
+            <p class="label-icon">{{ comp.namefour }}</p>
+            <p class="label-icon">{{ comp.namethree }}</p>
+            <p class="label-icon">{{ comp.nametwo }}</p>
+            <p class="label-icon">{{ comp.nameone }}</p>
+        </div>
     </div>
-    <div class="champ-header">
-        <!-- Tier img -->
-        <!-- <p class="champ-header-title">S Tier{{ champion.icon }}</p> -->
-        <!-- champions icons -->
     </div>
     </div>
+    {% endfor %}
 {% endblock %}

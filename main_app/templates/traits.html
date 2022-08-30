@@ -7,6 +7,9 @@
       <div class="card-content">
         <div class="card-title">  <img src="{{ trait.icon }}"/>{{ trait.name }}</div>
         <div class="content">{{ trait.desc }}
+        <div class="card-title"> 
+        <img src="{{ trait.icon }}"/>{{ trait.name }}</div>
+        <div class="content">Description: {{ trait.desc|linebreaks }}
         </div>
         <div>{{ trait.champions }}</div>
       </div>

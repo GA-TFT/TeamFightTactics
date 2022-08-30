@@ -6,7 +6,12 @@ from django.views.generic.edit import CreateView, UpdateView, DeleteView
 def home(request):
   videos = Video.objects.all()
   comps = Comp.objects.all()
-  return render(request, 'home.html', {'videos': videos, 'comps': comps})
+  context = {
+    'videos': videos, 
+    'comps': comps
+    }
+  
+  return render(request, 'home.html', context)
 
 def champions(request):
   champions = Champion.objects.all()

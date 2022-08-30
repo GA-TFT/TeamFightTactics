@@ -37,4 +37,4 @@ Traits
 - Units who currently have this trait
 
 # Technologies used (frontend, backend, database)
-Python3 / Django 
+Python3 / Django / PostgreSQL

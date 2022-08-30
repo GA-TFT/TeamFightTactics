@@ -4,7 +4,9 @@
 <h1>Team Fight Meta</h1>
 <hr />
     {% for item in videos %}
+    <center>
     {% video item.url '426x240' %}
+    </center>
     {% endfor %}
     {% for comp in comps %}
     <div class="container">
